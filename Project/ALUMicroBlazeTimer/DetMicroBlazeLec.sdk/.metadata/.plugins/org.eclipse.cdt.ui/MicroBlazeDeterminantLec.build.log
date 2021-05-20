@@ -1,0 +1,6 @@
+20:46:46 **** Incremental Build of configuration Debug for project MicroBlazeDeterminantLec ****
+make all 
+make: Nothing to be done for 'all'.
+
+20:46:46 Build Finished (took 257ms)
+

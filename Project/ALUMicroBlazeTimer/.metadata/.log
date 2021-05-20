@@ -1,0 +1,1810 @@
+!SESSION 2021-05-13 13:03:42.596 -----------------------------------------------
+eclipse.buildId=2019.1
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer
+
+This is a continuation of log file C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\.metadata\.bak_0.log
+Created Time: 2021-05-13 13:04:17.745
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.745
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.765
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"axi_gpio_0_S_AXI": {"name": "axi_gpio_0",
+"base": "0x40000000",
+"high": "0x4000FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_1_S_AXI": {"name": "axi_gpio_1",
+"base": "0x40010000",
+"high": "0x4001FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_2_S_AXI": {"name": "axi_gpio_2",
+"base": "0x40020000",
+"high": "0x4002FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_3_S_AXI": {"name": "axi_gpio_3",
+"base": "0x40030000",
+"high": "0x4003FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_4_S_AXI": {"name": "axi_gpio_4",
+"base": "0x40040000",
+"high": "0x4004FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_5_S_AXI": {"name": "axi_gpio_5",
+"base": "0x40050000",
+"high": "0x4005FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_6_S_AXI": {"name": "axi_gpio_6",
+"base": "0x40060000",
+"high": "0x4006FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_7_S_AXI": {"name": "axi_gpio_7",
+"base": "0x40070000",
+"high": "0x4007FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_8_S_AXI": {"name": "axi_gpio_8",
+"base": "0x40080000",
+"high": "0x4008FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_9_S_AXI": {"name": "axi_gpio_9",
+"base": "0x40090000",
+"high": "0x4009FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_10_S_AXI": {"name": "axi_gpio_10",
+"base": "0x400A0000",
+"high": "0x400AFFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_11_S_AXI": {"name": "axi_gpio_11",
+"base": "0x400B0000",
+"high": "0x400BFFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_12_S_AXI": {"name": "axi_gpio_12",
+"base": "0x400C0000",
+"high": "0x400CFFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_13_S_AXI": {"name": "axi_gpio_13",
+"base": "0x400D0000",
+"high": "0x400DFFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_14_S_AXI": {"name": "axi_gpio_14",
+"base": "0x400E0000",
+"high": "0x400EFFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_15_S_AXI": {"name": "axi_gpio_15",
+"base": "0x400F0000",
+"high": "0x400FFFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_16_S_AXI": {"name": "axi_gpio_16",
+"base": "0x40100000",
+"high": "0x4010FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_17_S_AXI": {"name": "axi_gpio_17",
+"base": "0x40110000",
+"high": "0x4011FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_18_S_AXI": {"name": "axi_gpio_18",
+"base": "0x40120000",
+"high": "0x4012FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_19_S_AXI": {"name": "axi_gpio_19",
+"base": "0x40130000",
+"high": "0x4013FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_20_S_AXI": {"name": "axi_gpio_20",
+"base": "0x40140000",
+"high": "0x4014FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_21_S_AXI": {"name": "axi_gpio_21",
+"base": "0x40150000",
+"high": "0x4015FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_22_S_AXI": {"name": "axi_gpio_22",
+"base": "0x40160000",
+"high": "0x4016FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_23_S_AXI": {"name": "axi_gpio_23",
+"base": "0x40170000",
+"high": "0x4017FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_24_S_AXI": {"name": "axi_gpio_24",
+"base": "0x40180000",
+"high": "0x4018FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_25_S_AXI": {"name": "axi_gpio_25",
+"base": "0x40190000",
+"high": "0x4019FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_26_S_AXI": {"name": "axi_gpio_26",
+"base": "0x401A0000",
+"high": "0x401AFFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_27_S_AXI": {"name": "axi_gpio_27",
+"base": "0x401B0000",
+"high": "0x401BFFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_28_S_AXI": {"name": "axi_gpio_28",
+"base": "0x401C0000",
+"high": "0x401CFFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_gpio_29_S_AXI": {"name": "axi_gpio_29",
+"base": "0x401D0000",
+"high": "0x401DFFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_uartlite_0_S_AXI": {"name": "axi_uartlite_0",
+"base": "0x40600000",
+"high": "0x4060FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"axi_timer_0_S_AXI": {"name": "axi_timer_0",
+"base": "0x41C00000",
+"high": "0x41C0FFFF",
+"size": "65536",
+"slaveintf": "S_AXI",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr_SLMB_Mem": {"name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"base": "0x00000000",
+"high": "0x00007FFF",
+"size": "32768",
+"slaveintf": "SLMB",
+"type": "MEMORY",
+"flags": "7",
+"segment": "Mem",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.768
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_ENABLED], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.770
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_ENABLED], Result: [null, 1]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.771
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.776
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_EVENT_COUNTERS], Result: [null, 5]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.777
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.779
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, 1]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.780
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.782
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0 C_DEBUG_COUNTER_WIDTH], Result: [null, 32]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.783
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0 C_FREQ], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.785
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0 C_FREQ], Result: [null, 100000000]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.786
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.810
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0 C_CPU_CLK_FREQ_HZ], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.812
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.819
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf], Result: [null, {"microblaze_0": {"bscan": "2",
+"index": "0",
+},
+}]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.823
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf mdm_1], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.827
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, {}]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.828
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf mdm_1], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.830
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, {"microblaze_0": {},
+}]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.831
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf mdm_1], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.833
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf mdm_1], Result: [null, microblaze_0]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:17.856
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.018
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.020
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.370
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.371
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.390
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.390
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.407
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.408
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.428
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.429
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.471
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.473
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.475
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#1]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.486
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.492
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.493
+!MESSAGE XSCT Command: [version -server], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.503
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.504
+!MESSAGE XSCT Command: [version], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.505
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
+SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.509
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.515
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.515
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.532
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.532
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.538
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.539
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.555
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.556
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.563
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.564
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.581
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.582
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.588
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.588
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.610
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.611
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level == 0}], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.632
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level == 0}], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.632
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.634
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.637
+!MESSAGE XSCT Command: [::hsi::utils::get_clock_info -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.640
+!MESSAGE XSCT command with result: [::hsi::utils::get_clock_info -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, {"Clk": "100000000",
+"Dbg_Clk": "",
+}]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.641
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.657
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.658
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.691
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.692
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.744
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.745
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.775
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.777
+!MESSAGE XSCT Command: [dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:20.871
+!MESSAGE XSCT command with result: [dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:21.040
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:21.102
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:21.103
+!MESSAGE XSCT Command: [con], Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:21.109
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-2
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:57.566
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:57.570
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:57.571
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:57.575
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:57.575
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:04:57.577
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:03.968
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-78
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:03.974
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-78
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-05-13 13:05:04.976
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:04.976
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:04.981
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:04.981
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:04.992
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:04.992
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:04.999
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.000
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.017
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.017
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.041
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.041
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.045
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.047
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.049
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.049
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.055
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.056
+!MESSAGE XSCT Command: [version -server], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.061
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.061
+!MESSAGE XSCT Command: [version], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.062
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
+SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.062
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.068
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.068
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.087
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.087
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.093
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.094
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.112
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.113
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.120
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.120
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.140
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.140
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.147
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.147
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.164
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.165
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level == 0}], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.183
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level == 0}], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.184
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.186
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.200
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.203
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.204
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.236
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.237
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.272
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.273
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.323
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.324
+!MESSAGE XSCT Command: [dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.409
+!MESSAGE XSCT command with result: [dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.517
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.563
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.564
+!MESSAGE XSCT Command: [con], Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:05.568
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-0
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:21.594
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:21.597
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf ], Result: [null, {"microblaze_0": "DeterminantMicroBlaze_i/microblaze_0:DeterminantMicroBlaze_i/microblaze_0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:28.285
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:28.289
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:28.290
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:28.293
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:28.293
+!MESSAGE XSCT Command: [hsi::utils::get_supported_os -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:28.300
+!MESSAGE XSCT command with result: [hsi::utils::get_supported_os -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf], Result: [null, {"microblaze_0": {"freertos10_xilinx_v1_3": {"name": "freertos10_xilinx",
+"version": "1.3",
+"desc": "This Xilinx FreeRTOS port is based on FreeRTOS kernel version 10.1.1",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lfreertos,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/ThirdParty/bsp/freertos10_xilinx_v1_3",
+},
+"standalone_v7_0": {"name": "standalone",
+"version": "7.0",
+"desc": "Standalone is a simple, low-level software layer. It provides access to basic processor features such as caches, interrupts and exceptions as well as the basic features of a hosted environment, such as standard input and output, profiling, abort and exit.",
+"compilerflags": "",
+"linkerflags": "-Wl,--start-group,-lxil,-lgcc,-lc,--end-group",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/lib/bsp/standalone_v7_0",
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:28.335
+!MESSAGE XSCT Command: [::hsi::utils::get_connected_periphs C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:28.337
+!MESSAGE XSCT command with result: [::hsi::utils::get_connected_periphs C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0], Result: [null, axi_gpio_0 axi_gpio_1 axi_gpio_10 axi_gpio_11 axi_gpio_12 axi_gpio_13 axi_gpio_14 axi_gpio_15 axi_gpio_16 axi_gpio_17 axi_gpio_18 axi_gpio_19 axi_gpio_2 axi_gpio_20 axi_gpio_21 axi_gpio_22 axi_gpio_23 axi_gpio_24 axi_gpio_25 axi_gpio_26 axi_gpio_27 axi_gpio_28 axi_gpio_29 axi_gpio_3 axi_gpio_4 axi_gpio_5 axi_gpio_6 axi_gpio_7 axi_gpio_8 axi_gpio_9 axi_timer_0 axi_uartlite_0 microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:28.337
+!MESSAGE XSCT Command: [::hsi::utils::get_drivers_for_sw -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:28.362
+!MESSAGE XSCT command with result: [::hsi::utils::get_drivers_for_sw -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss], Result: [null, {"axi_gpio_0": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_1": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_10": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_11": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_12": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_13": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_14": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_15": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_16": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_17": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_18": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_19": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_2": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_20": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_21": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_22": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_23": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_24": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_25": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_26": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_27": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_28": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_29": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_3": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_4": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_5": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_6": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_7": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_8": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_gpio_9": {"name": "gpio",
+"ver": "4.4",
+},
+"axi_timer_0": {"name": "tmrctr",
+"ver": "4.5",
+},
+"axi_uartlite_0": {"name": "uartlite",
+"ver": "3.2",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.3",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"name": "bram",
+"ver": "4.3",
+},
+"microblaze_0": {"name": "cpu",
+"ver": "2.9",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:28.363
+!MESSAGE XSCT Command: [hsi::utils::get_drivers_for_hw -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:28.469
+!MESSAGE XSCT command with result: [hsi::utils::get_drivers_for_hw -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf], Result: [null, {"DeterminantTopModule_0": {"version": "1.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"axi_gpio_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_1": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_10": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_11": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_12": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_13": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_14": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_15": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_16": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_17": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_18": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_19": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_2": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_20": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_21": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_22": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_23": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_24": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_25": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_26": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_27": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_28": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_29": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_3": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_4": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_5": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_6": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_7": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_8": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_gpio_9": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"gpio_v4_4": {"name": "gpio",
+"version": "4.4",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/gpio_v4_4",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_timer_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"tmrctr_v4_5": {"name": "tmrctr",
+"version": "4.5",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/tmrctr_v4_5",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"axi_uartlite_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartlite_v3_2": {"name": "uartlite",
+"version": "3.2",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"clk_wiz_0": {"version": "6.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"clk_wiz_v1_2": {"name": "clk_wiz",
+"version": "1.2",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/clk_wiz_v1_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"mdm_1": {"version": "3.2",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"uartlite_v3_2": {"name": "uartlite",
+"version": "3.2",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/uartlite_v3_2",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0": {"version": "11.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"cpu_v2_9": {"name": "cpu",
+"version": "2.9",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/cpu_v2_9",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_axi_periph": {"version": "2.1",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_3": {"name": "bram",
+"version": "4.3",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_dlmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"version": "4.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+"bram_v4_3": {"name": "bram",
+"version": "4.3",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/bram_v4_3",
+"compilerflags": "",
+"linkerflags": "",
+},
+},
+},
+"microblaze_0_local_memory_ilmb_v10": {"version": "3.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"microblaze_0_local_memory_lmb_bram": {"version": "8.4",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"rst_clk_wiz_0_100M": {"version": "5.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+"util_vector_logic_0": {"version": "2.0",
+"driver_info": {"generic": {"name": "generic",
+"version": "2.0",
+"repo": "C:/Xilinx/SDK/2019.1/data/embeddedsw/XilinxProcessorIPLib/drivers/generic_v2_0",
+},
+},
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:28.665
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:28.668
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:28.668
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:28.672
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:28.678
+!MESSAGE XSCT Command: [::hsi::utils::get_libs_from_sw C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:28.682
+!MESSAGE XSCT command with result: [::hsi::utils::get_libs_from_sw C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:28.826
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:05:28.828
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:06:42.118
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:06:42.120
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0 C_ENDIANNESS], Result: [null, 1]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:06:42.166
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:06:42.169
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:06:42.171
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0 C_BASE_VECTORS], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:06:42.173
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf microblaze_0 C_BASE_VECTORS], Result: [null, 0x0000000000000000]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:06:56.548
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:06:56.550
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:06:56.551
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:06:56.563
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A8AD8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:06:56.564
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:06:56.576
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A8AD8EA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:06:56.576
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:06:56.606
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:06:56.607
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:06:56.627
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:06:56.628
+!MESSAGE XSCT Command: [fpga -file C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/download.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:06:58.830
+!MESSAGE XSCT command with result: [fpga -file C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/download.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:06:59.635
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:06:59.638
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY org.eclipse.tcf.debug.ui 4 0 2021-05-13 13:07:17.073
+!MESSAGE Error retrieving source mapping for a stack frame
+!STACK 0
+org.eclipse.tcf.core.ErrorReport: TCF error report:
+  Command: LineNumbers mapToSource "JTAG-jsn-Nexys4DDR-210292A8AD8EA-13631093-0.MDM1.0", 0, 1
+  Time: 2021-05-13 13:07:17.053
+  Error text: Invalid file mtime
+  Error code: 1
+
+	at org.eclipse.tcf.core.Command.toError(Command.java:267)
+	at org.eclipse.tcf.core.Command.toError(Command.java:252)
+	at org.eclipse.tcf.internal.services.remote.LineNumbersProxy$1.done(LineNumbersProxy.java:44)
+	at org.eclipse.tcf.core.Command.result(Command.java:122)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1117)
+	at org.eclipse.tcf.core.AbstractChannel.access$0(AbstractChannel.java:1059)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:370)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:96)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:24.825
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:24.830
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:24.831
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:24.834
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/system.hdf C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:24.835
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:24.837
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:29.725
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-146
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.043
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-146
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-05-13 13:07:30.742
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.743
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.749
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.749
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.759
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.759
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.765
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.766
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.783
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.784
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.829
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.829
+!MESSAGE XSCT Command: [fpga -state], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.853
+!MESSAGE XSCT command with result: [fpga -state], Result: [null, FPGA is configured]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.854
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.856
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.856
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.863
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.863
+!MESSAGE XSCT Command: [version -server], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.866
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.1]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.867
+!MESSAGE XSCT Command: [version], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.867
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.1
+SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.868
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.874
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.874
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.893
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.894
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.901
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.901
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.918
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.919
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.925
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.926
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.943
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.943
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.951
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Nexys4DDR 210292A8AD8EA]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.951
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.969
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==1}], Result: [null,      2  xc7a100t (idcode 13631093 irlen 6 fpga)]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.970
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level == 0}], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.987
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level == 0}], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.988
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.990
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.990
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.993
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:30.993
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:31.024
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:31.025
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:31.060
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:31.061
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:31.092
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:31.092
+!MESSAGE XSCT Command: [dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:31.180
+!MESSAGE XSCT command with result: [dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:31.287
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:31.335
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:31.336
+!MESSAGE XSCT Command: [con], Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:07:31.341
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-5
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:10:26.451
+!MESSAGE XSCT Command: [disconnect tcfchan#3], Thread: Thread-187
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-05-13 13:10:26.454
+!MESSAGE XSCT command with result: [disconnect tcfchan#3], Result: [null, ]. Thread: Thread-187

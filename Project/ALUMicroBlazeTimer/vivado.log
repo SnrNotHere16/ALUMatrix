@@ -1,0 +1,436 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu May 13 10:16:48 2021
+# Process ID: 11804
+# Current directory: C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11124 C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\DetMicroBlazeLec.xpr
+# Log file: C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/vivado.log
+# Journal file: C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/OAkun/Desktop/CECS460Micro/DetMicroBlazeLecTimerVideo' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:22 . Memory (MB): peak = 915.977 ; gain = 309.629
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/DeterminantMicroBlaze.bd}
+Adding component instance block -- xilinx.com:ip:clk_wiz:6.0 - clk_wiz_0
+Adding component instance block -- xilinx.com:module_ref:DeterminantTopModule:1.0 - DeterminantTopModule_0
+Adding component instance block -- xilinx.com:ip:axi_uartlite:2.0 - axi_uartlite_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_1
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_2
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_3
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_4
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_5
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_6
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_7
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_8
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_9
+Adding component instance block -- xilinx.com:ip:microblaze:11.0 - microblaze_0
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding component instance block -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - lmb_bram
+Adding component instance block -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_clk_wiz_0_100M
+Adding component instance block -- xilinx.com:ip:axi_interconnect:2.1 - microblaze_0_axi_periph
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding component instance block -- xilinx.com:ip:axi_timer:2.0 - axi_timer_0
+Successfully read diagram <DeterminantMicroBlaze> from BD file <C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/DeterminantMicroBlaze.bd>
+open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1310.082 ; gain = 1.781
+open_bd_design {C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/DeterminantMicroBlaze.bd}
+update_module_reference DeterminantMicroBlaze_DeterminantTopModule_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'reset' of definition 'xilinx.com:signal:reset:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'clk' of definition 'xilinx.com:signal:clock:1.0' (from Xilinx Repository).
+INFO: [IP_Flow 19-4728] Bus Interface 'clk': Added interface parameter 'ASSOCIATED_RESET' with value 'reset'.
+WARNING: [IP_Flow 19-3153] Bus Interface 'clk': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+Upgrading 'C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/DeterminantMicroBlaze.bd'
+INFO: [IP_Flow 19-3420] Updated DeterminantMicroBlaze_DeterminantTopModule_0_0 to use current project options
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'F00'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'F01'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'F02'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'F10'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'F11'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'F12'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'F20'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'F21'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'F22'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'G00'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'G01'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'G02'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'G10'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'G11'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'G12'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'G20'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'G21'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'G22'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'c'
+WARNING: [IP_Flow 19-4698] Upgrade has added port 'sel'
+WARNING: [IP_Flow 19-3298] Detected external port differences while upgrading 'DeterminantMicroBlaze_DeterminantTopModule_0_0'. These changes may impact your design.
+CRITICAL WARNING: [Coretcl 2-1280] The upgrade of 'DeterminantMicroBlaze_DeterminantTopModule_0_0' has identified issues that may require user intervention. Please verify that the instance is correctly configured, and review any upgrade messages.
+Wrote  : <C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\DetMicroBlazeLec.srcs\sources_1\bd\DeterminantMicroBlaze\DeterminantMicroBlaze.bd> 
+Wrote  : <C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ui/bd_644776f3.ui> 
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_10
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_11
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_12
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_13
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_14
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_15
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_16
+endgroup
+set_property -dict [list CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_10]
+set_property -dict [list CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_12]
+set_property -dict [list CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_13]
+set_property -dict [list CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_14]
+set_property -dict [list CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_16]
+set_property -dict [list CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_11]
+set_property -dict [list CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_15]
+connect_bd_net [get_bd_pins axi_gpio_10/gpio_io_i] [get_bd_pins DeterminantTopModule_0/F00]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_10/gpio_io_i is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+startgroup
+set_property -dict [list CONFIG.C_ALL_INPUTS {0} CONFIG.C_ALL_OUTPUTS {1}] [get_bd_cells axi_gpio_10]
+WARNING: [BD 41-1684] Pin /axi_gpio_10/gpio_io_i is now disabled. All connections to this pin have been removed. 
+delete_bd_objs [get_bd_nets Net]
+endgroup
+set_property -dict [list CONFIG.C_ALL_INPUTS {0} CONFIG.C_ALL_OUTPUTS {1}] [get_bd_cells axi_gpio_12]
+set_property -dict [list CONFIG.C_ALL_INPUTS {0} CONFIG.C_ALL_OUTPUTS {1}] [get_bd_cells axi_gpio_13]
+set_property -dict [list CONFIG.C_ALL_INPUTS {0} CONFIG.C_ALL_OUTPUTS {1}] [get_bd_cells axi_gpio_14]
+set_property -dict [list CONFIG.C_ALL_INPUTS {0} CONFIG.C_ALL_OUTPUTS {1}] [get_bd_cells axi_gpio_16]
+set_property -dict [list CONFIG.C_ALL_INPUTS {0} CONFIG.C_ALL_OUTPUTS {1}] [get_bd_cells axi_gpio_15]
+set_property -dict [list CONFIG.C_ALL_INPUTS {0} CONFIG.C_ALL_OUTPUTS {1}] [get_bd_cells axi_gpio_11]
+connect_bd_net [get_bd_pins DeterminantTopModule_0/F00] [get_bd_pins axi_gpio_10/gpio_io_o]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_10/gpio_io_o is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+connect_bd_net [get_bd_pins DeterminantTopModule_0/F01] [get_bd_pins axi_gpio_11/gpio_io_o]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_11/gpio_io_o is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+connect_bd_net [get_bd_pins DeterminantTopModule_0/F02] [get_bd_pins axi_gpio_12/gpio_io_o]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_12/gpio_io_o is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+connect_bd_net [get_bd_pins DeterminantTopModule_0/F10] [get_bd_pins axi_gpio_13/gpio_io_o]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_13/gpio_io_o is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+connect_bd_net [get_bd_pins DeterminantTopModule_0/F11] [get_bd_pins axi_gpio_14/gpio_io_o]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_14/gpio_io_o is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+connect_bd_net [get_bd_pins axi_gpio_15/gpio_io_o] [get_bd_pins DeterminantTopModule_0/F12]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_15/gpio_io_o is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+connect_bd_net [get_bd_pins axi_gpio_16/gpio_io_o] [get_bd_pins DeterminantTopModule_0/F20]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_16/gpio_io_o is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+regenerate_bd_layout
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_17
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_18
+endgroup
+set_property -dict [list CONFIG.C_ALL_OUTPUTS {1}] [get_bd_cells axi_gpio_17]
+set_property -dict [list CONFIG.C_ALL_OUTPUTS {1}] [get_bd_cells axi_gpio_18]
+connect_bd_net [get_bd_pins DeterminantTopModule_0/F21] [get_bd_pins axi_gpio_17/gpio_io_o]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_17/gpio_io_o is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+connect_bd_net [get_bd_pins DeterminantTopModule_0/F22] [get_bd_pins axi_gpio_18/gpio_io_o]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_18/gpio_io_o is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+regenerate_bd_layout
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_19
+endgroup
+set_property location {7.5 3091 2086} [get_bd_cells axi_gpio_19]
+undo
+INFO: [Common 17-17] undo 'set_property location {7.5 3091 2086} [get_bd_cells axi_gpio_19]'
+set_property location {7.5 2790 2122} [get_bd_cells axi_gpio_19]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_20
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_21
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_22
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_23
+endgroup
+startgroup
+set_property location {7 2853 2680} [get_bd_cells axi_gpio_20]
+set_property location {7 2853 2540} [get_bd_cells axi_gpio_21]
+set_property location {7 2853 2260} [get_bd_cells axi_gpio_23]
+set_property location {7 2853 2400} [get_bd_cells axi_gpio_22]
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_24
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_25
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_26
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_27
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_28
+endgroup
+startgroup
+set_property location {15 4039 2882} [get_bd_cells axi_gpio_24]
+set_property location {14 3809 2882} [get_bd_cells axi_gpio_25]
+set_property location {13 3579 2882} [get_bd_cells axi_gpio_26]
+set_property location {11 3119 2882} [get_bd_cells axi_gpio_28]
+set_property location {11 3349 2882} [get_bd_cells axi_gpio_27]
+endgroup
+set_property -dict [list CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_19]
+set_property -dict [list CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_23]
+set_property -dict [list CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_22]
+set_property -dict [list CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_21]
+set_property -dict [list CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_20]
+set_property -dict [list CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_24]
+set_property -dict [list CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_28]
+set_property -dict [list CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_27]
+set_property -dict [list CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_25]
+set_property -dict [list CONFIG.C_ALL_INPUTS {1}] [get_bd_cells axi_gpio_26]
+set_property location {8 3178 2113} [get_bd_cells axi_gpio_20]
+set_property location {8 3116 2255} [get_bd_cells axi_gpio_21]
+set_property location {8 3149 2382} [get_bd_cells axi_gpio_23]
+set_property location {7 2897 2231} [get_bd_cells axi_gpio_21]
+set_property location {8 3077 2247} [get_bd_cells axi_gpio_22]
+set_property location {7 2889 2373} [get_bd_cells axi_gpio_23]
+set_property location {8 3115 2369} [get_bd_cells axi_gpio_24]
+set_property location {7 2925 2488} [get_bd_cells axi_gpio_25]
+set_property location {8 3118 2489} [get_bd_cells axi_gpio_26]
+set_property location {7 2923 2631} [get_bd_cells axi_gpio_27]
+delete_bd_objs [get_bd_cells axi_gpio_28]
+connect_bd_net [get_bd_pins DeterminantTopModule_0/G00] [get_bd_pins axi_gpio_19/gpio_io_i]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_19/gpio_io_i is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+connect_bd_net [get_bd_pins DeterminantTopModule_0/G01] [get_bd_pins axi_gpio_20/gpio_io_i]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_20/gpio_io_i is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+connect_bd_net [get_bd_pins DeterminantTopModule_0/G02] [get_bd_pins axi_gpio_21/gpio_io_i]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_21/gpio_io_i is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+connect_bd_net [get_bd_pins DeterminantTopModule_0/G10] [get_bd_pins axi_gpio_22/gpio_io_i]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_22/gpio_io_i is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+connect_bd_net [get_bd_pins DeterminantTopModule_0/G11] [get_bd_pins axi_gpio_23/gpio_io_i]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_23/gpio_io_i is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+connect_bd_net [get_bd_pins DeterminantTopModule_0/G11] [get_bd_pins axi_gpio_21/s_axi_aclk]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /DeterminantTopModule_0/G11(undef) and /axi_gpio_21/s_axi_aclk(clk)
+undo
+INFO: [Common 17-17] undo 'connect_bd_net [get_bd_pins DeterminantTopModule_0/G11] [get_bd_pins axi_gpio_21/s_axi_aclk]'
+connect_bd_net [get_bd_pins DeterminantTopModule_0/G12] [get_bd_pins axi_gpio_24/gpio_io_i]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_24/gpio_io_i is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+connect_bd_net [get_bd_pins DeterminantTopModule_0/G20] [get_bd_pins axi_gpio_25/gpio_io_i]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_25/gpio_io_i is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+connect_bd_net [get_bd_pins DeterminantTopModule_0/G21] [get_bd_pins axi_gpio_26/gpio_io_i]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_26/gpio_io_i is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+connect_bd_net [get_bd_pins DeterminantTopModule_0/G22] [get_bd_pins axi_gpio_27/gpio_io_i]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_27/gpio_io_i is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_10/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_10/S_AXI]
+Slave segment </axi_gpio_10/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x400A_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_11/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_11/S_AXI]
+Slave segment </axi_gpio_11/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x400B_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_12/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_12/S_AXI]
+Slave segment </axi_gpio_12/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x400C_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_13/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_13/S_AXI]
+Slave segment </axi_gpio_13/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x400D_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_14/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_14/S_AXI]
+Slave segment </axi_gpio_14/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x400E_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_15/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_15/S_AXI]
+Slave segment </axi_gpio_15/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x400F_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_16/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_16/S_AXI]
+Slave segment </axi_gpio_16/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x4010_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_17/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_17/S_AXI]
+Slave segment </axi_gpio_17/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x4011_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_18/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_18/S_AXI]
+Slave segment </axi_gpio_18/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x4012_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_19/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_19/S_AXI]
+Slave segment </axi_gpio_19/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x4013_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_20/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_20/S_AXI]
+Slave segment </axi_gpio_20/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x4014_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_21/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_21/S_AXI]
+Slave segment </axi_gpio_21/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x4015_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_22/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_22/S_AXI]
+Slave segment </axi_gpio_22/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x4016_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_23/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_23/S_AXI]
+Slave segment </axi_gpio_23/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x4017_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_24/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_24/S_AXI]
+Slave segment </axi_gpio_24/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x4018_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_25/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_25/S_AXI]
+Slave segment </axi_gpio_25/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x4019_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_26/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_26/S_AXI]
+Slave segment </axi_gpio_26/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x401A_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_27/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_27/S_AXI]
+Slave segment </axi_gpio_27/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x401B_0000 [ 64K ]>
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_28
+endgroup
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_gpio:2.0 axi_gpio_29
+endgroup
+set_property -dict [list CONFIG.C_ALL_OUTPUTS {1}] [get_bd_cells axi_gpio_29]
+set_property -dict [list CONFIG.C_ALL_OUTPUTS {1}] [get_bd_cells axi_gpio_28]
+connect_bd_net [get_bd_pins axi_gpio_29/gpio_io_o] [get_bd_pins DeterminantTopModule_0/c]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_29/gpio_io_o is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+connect_bd_net [get_bd_pins axi_gpio_28/gpio_io_o] [get_bd_pins DeterminantTopModule_0/sel]
+WARNING: [BD 41-1306] The connection to interface pin /axi_gpio_28/gpio_io_o is being overridden by the user. This pin will not be connected as a part of interface connection GPIO
+startgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_28/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_28/S_AXI]
+Slave segment </axi_gpio_28/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x401C_0000 [ 64K ]>
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_gpio_29/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_gpio_29/S_AXI]
+Slave segment </axi_gpio_29/S_AXI/Reg> is being mapped into address space </microblaze_0/Data> at <0x401D_0000 [ 64K ]>
+endgroup
+regenerate_bd_layout
+save_bd_design
+Wrote  : <C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\DetMicroBlazeLec.srcs\sources_1\bd\DeterminantMicroBlaze\DeterminantMicroBlaze.bd> 
+Wrote  : <C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ui/bd_644776f3.ui> 
+validate_bd_design
+validate_bd_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1928.285 ; gain = 0.000
+save_bd_design
+Wrote  : <C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\DetMicroBlazeLec.srcs\sources_1\bd\DeterminantMicroBlaze\DeterminantMicroBlaze.bd> 
+Wrote  : <C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ui/bd_644776f3.ui> 
+make_wrapper -files [get_files C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/DeterminantMicroBlaze.bd] -top
+INFO: [BD 41-1662] The design 'DeterminantMicroBlaze.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/DeterminantTopModule_0/sel'(3) to net 'axi_gpio_28_gpio_io_o'(32) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/DeterminantTopModule_0/sel'(3) to net 'axi_gpio_28_gpio_io_o'(32) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/sim/DeterminantMicroBlaze.v
+VHDL Output written to : C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/hdl/DeterminantMicroBlaze_wrapper.v
+make_wrapper -files [get_files C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/DeterminantMicroBlaze.bd] -top
+INFO: [BD 41-1662] The design 'DeterminantMicroBlaze.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/DeterminantTopModule_0/sel'(3) to net 'axi_gpio_28_gpio_io_o'(32) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/DeterminantTopModule_0/sel'(3) to net 'axi_gpio_28_gpio_io_o'(32) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/sim/DeterminantMicroBlaze.v
+VHDL Output written to : C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/hdl/DeterminantMicroBlaze_wrapper.v
+reset_run synth_1
+reset_run DeterminantMicroBlaze_xbar_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+INFO: [BD 41-1662] The design 'DeterminantMicroBlaze.bd' is already validated. Therefore parameter propagation will not be re-run.
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/DeterminantTopModule_0/sel'(3) to net 'axi_gpio_28_gpio_io_o'(32) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v
+CRITICAL WARNING: [BD 41-1228] Width mismatch when connecting input pin '/DeterminantTopModule_0/sel'(3) to net 'axi_gpio_28_gpio_io_o'(32) - Only lower order bits will be connected, and other input bits of this pin will be left unconnected.
+VHDL Output written to : C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/sim/DeterminantMicroBlaze.v
+VHDL Output written to : C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/hdl/DeterminantMicroBlaze_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block clk_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block DeterminantTopModule_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uartlite_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_5 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_6 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_8 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_9 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_clk_wiz_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block util_vector_logic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_11 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_12 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_13 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_14 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_15 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_16 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_17 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_18 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_19 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_20 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_21 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_22 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_23 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_24 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_25 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_26 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_27 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_28 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_29 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_2 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/tier2_xbar_3 .
+Exporting to file C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/hw_handoff/DeterminantMicroBlaze.hwh
+Generated Block Design Tcl file C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/hw_handoff/DeterminantMicroBlaze_bd.tcl
+Generated Hardware Definition File C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.hwdef
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DeterminantMicroBlaze_axi_gpio_10_0, cache-ID = 4f7fe77297e345be; cache size = 11.597 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DeterminantMicroBlaze_axi_gpio_21_0, cache-ID = 2fd8914151b3ab1e; cache size = 11.597 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DeterminantMicroBlaze_axi_gpio_11_0, cache-ID = 4f7fe77297e345be; cache size = 11.597 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DeterminantMicroBlaze_axi_gpio_20_0, cache-ID = 2fd8914151b3ab1e; cache size = 11.597 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DeterminantMicroBlaze_axi_gpio_12_0, cache-ID = 4f7fe77297e345be; cache size = 11.597 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DeterminantMicroBlaze_axi_gpio_22_0, cache-ID = 2fd8914151b3ab1e; cache size = 11.597 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DeterminantMicroBlaze_axi_gpio_13_0, cache-ID = 4f7fe77297e345be; cache size = 11.597 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DeterminantMicroBlaze_axi_gpio_26_0, cache-ID = 2fd8914151b3ab1e; cache size = 11.597 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DeterminantMicroBlaze_axi_gpio_14_0, cache-ID = 4f7fe77297e345be; cache size = 11.597 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DeterminantMicroBlaze_axi_gpio_29_0, cache-ID = 4f7fe77297e345be; cache size = 11.597 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DeterminantMicroBlaze_axi_gpio_15_0, cache-ID = 4f7fe77297e345be; cache size = 11.597 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DeterminantMicroBlaze_axi_gpio_24_0, cache-ID = 2fd8914151b3ab1e; cache size = 11.597 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DeterminantMicroBlaze_axi_gpio_16_0, cache-ID = 4f7fe77297e345be; cache size = 11.597 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DeterminantMicroBlaze_axi_gpio_23_0, cache-ID = 2fd8914151b3ab1e; cache size = 11.597 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DeterminantMicroBlaze_axi_gpio_17_0, cache-ID = 4f7fe77297e345be; cache size = 11.597 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DeterminantMicroBlaze_axi_gpio_25_0, cache-ID = 2fd8914151b3ab1e; cache size = 11.597 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DeterminantMicroBlaze_axi_gpio_18_0, cache-ID = 4f7fe77297e345be; cache size = 11.597 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DeterminantMicroBlaze_axi_gpio_27_0, cache-ID = 2fd8914151b3ab1e; cache size = 11.597 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DeterminantMicroBlaze_axi_gpio_19_0, cache-ID = 2fd8914151b3ab1e; cache size = 11.597 MB.
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP DeterminantMicroBlaze_axi_gpio_28_1, cache-ID = 4f7fe77297e345be; cache size = 11.597 MB.
+[Thu May 13 11:36:09 2021] Launched DeterminantMicroBlaze_xbar_0_synth_1, DeterminantMicroBlaze_DeterminantTopModule_0_0_synth_1, DeterminantMicroBlaze_tier2_xbar_2_0_synth_1, DeterminantMicroBlaze_tier2_xbar_1_0_synth_1, DeterminantMicroBlaze_tier2_xbar_3_0_synth_1, DeterminantMicroBlaze_tier2_xbar_0_0_synth_1, synth_1...
+Run output will be captured here:
+DeterminantMicroBlaze_xbar_0_synth_1: C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/DeterminantMicroBlaze_xbar_0_synth_1/runme.log
+DeterminantMicroBlaze_DeterminantTopModule_0_0_synth_1: C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/DeterminantMicroBlaze_DeterminantTopModule_0_0_synth_1/runme.log
+DeterminantMicroBlaze_tier2_xbar_2_0_synth_1: C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/DeterminantMicroBlaze_tier2_xbar_2_0_synth_1/runme.log
+DeterminantMicroBlaze_tier2_xbar_1_0_synth_1: C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/DeterminantMicroBlaze_tier2_xbar_1_0_synth_1/runme.log
+DeterminantMicroBlaze_tier2_xbar_3_0_synth_1: C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/DeterminantMicroBlaze_tier2_xbar_3_0_synth_1/runme.log
+DeterminantMicroBlaze_tier2_xbar_0_0_synth_1: C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/DeterminantMicroBlaze_tier2_xbar_0_0_synth_1/runme.log
+synth_1: C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/runme.log
+[Thu May 13 11:36:10 2021] Launched impl_1...
+Run output will be captured here: C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:25 ; elapsed = 00:00:31 . Memory (MB): peak = 1928.285 ; gain = 0.000
+file copy -force C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/impl_1/DeterminantMicroBlaze_wrapper.sysdef C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper.hdf
+
+launch_sdk -workspace C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer -hwspec C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer -hwspec C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+file copy -force C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/impl_1/DeterminantMicroBlaze_wrapper.sysdef C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper.hdf
+
+file copy -force C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/impl_1/DeterminantMicroBlaze_wrapper.sysdef C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper.hdf
+
+launch_sdk -workspace C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer -hwspec C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer -hwspec C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+open_bd_design {C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/DeterminantMicroBlaze.bd}
+startgroup
+endgroup
+launch_sdk -workspace C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer -hwspec C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer -hwspec C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu May 13 13:11:12 2021...

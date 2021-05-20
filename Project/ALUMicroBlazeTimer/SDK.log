@@ -1,0 +1,615 @@
+19:07:01 INFO  : Registering command handlers for SDK TCF services
+19:07:02 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\OAkun\Desktop\CECS460Micro\DetMicroBlazeLecTimerVideo\temp_xsdb_launch_script.tcl
+19:07:08 INFO  : XSCT server has started successfully.
+19:07:09 INFO  : Successfully done setting XSCT server connection channel  
+19:07:09 INFO  : Successfully done setting SDK workspace  
+19:07:09 INFO  : Processing command line option -hwspec C:/Users/OAkun/Desktop/CECS460Micro/DetMicroBlazeLecTimerVideo/DeterminantMicroBlaze_wrapper.hdf.
+19:09:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:09:22 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+19:09:25 INFO  : FPGA configured successfully with bitstream "C:/Users/OAkun/Desktop/CECS460Micro/DetMicroBlazeLecTimerVideo/DeterminantMicroBlaze_wrapper_hw_platform_0/download.bit"
+19:09:49 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+19:09:49 INFO  : 'fpga -state' command is executed.
+19:09:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+19:09:49 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AD8EA' is selected.
+19:09:49 INFO  : 'jtag frequency' command is executed.
+19:09:49 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+19:09:49 INFO  : Context for processor 'microblaze_0' is selected.
+19:09:49 INFO  : Processor reset is completed for 'microblaze_0'.
+19:09:50 INFO  : Context for processor 'microblaze_0' is selected.
+19:09:50 INFO  : The application 'C:/Users/OAkun/Desktop/CECS460Micro/DetMicroBlazeLecTimerVideo/TImerVideo/Debug/TImerVideo.elf' is downloaded to processor 'microblaze_0'.
+19:09:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+dow C:/Users/OAkun/Desktop/CECS460Micro/DetMicroBlazeLecTimerVideo/TImerVideo/Debug/TImerVideo.elf
+----------------End of Script----------------
+
+19:09:50 INFO  : Memory regions updated for context MicroBlaze #0
+19:09:50 INFO  : Memory regions updated for context MicroBlaze #0
+19:09:50 INFO  : Context for processor 'microblaze_0' is selected.
+19:09:50 INFO  : 'con' command is executed.
+19:09:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+con
+----------------End of Script----------------
+
+19:09:50 INFO  : Launch script is exported to file 'C:\Users\OAkun\Desktop\CECS460Micro\DetMicroBlazeLecTimerVideo\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_timervideo.elf_on_local.tcl'
+19:52:59 INFO  : Disconnected from the channel tcfchan#1.
+11:47:13 INFO  : Registering command handlers for SDK TCF services
+11:47:14 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\temp_xsdb_launch_script.tcl
+11:47:18 INFO  : XSCT server has started successfully.
+11:47:19 INFO  : Successfully done setting XSCT server connection channel  
+11:47:19 INFO  : Successfully done setting SDK workspace  
+11:47:19 INFO  : Processing command line option -hwspec C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper.hdf.
+11:49:08 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\temp_xsdb_launch_script.tcl
+11:49:11 INFO  : XSCT server has started successfully.
+11:49:11 INFO  : Successfully done setting XSCT server connection channel  
+11:49:12 INFO  : Successfully done setting SDK workspace  
+11:49:14 INFO  : Registering command handlers for SDK TCF services
+11:49:14 INFO  : Processing command line option -hwspec C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper.hdf.
+11:52:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:52:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+11:52:23 INFO  : FPGA configured successfully with bitstream "C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/download.bit"
+11:53:04 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+11:53:04 INFO  : 'fpga -state' command is executed.
+11:53:04 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:53:04 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AD8EA' is selected.
+11:53:04 INFO  : 'jtag frequency' command is executed.
+11:53:04 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:53:04 INFO  : Context for processor 'microblaze_0' is selected.
+11:53:04 INFO  : Processor reset is completed for 'microblaze_0'.
+11:53:04 INFO  : Context for processor 'microblaze_0' is selected.
+11:53:04 INFO  : The application 'C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf' is downloaded to processor 'microblaze_0'.
+11:53:04 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf
+----------------End of Script----------------
+
+11:53:05 INFO  : Memory regions updated for context MicroBlaze #0
+11:53:05 INFO  : Memory regions updated for context MicroBlaze #0
+11:53:05 INFO  : Context for processor 'microblaze_0' is selected.
+11:53:05 INFO  : 'con' command is executed.
+11:53:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+con
+----------------End of Script----------------
+
+11:53:05 INFO  : Launch script is exported to file 'C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_calcmicroblaze.elf_on_local.tcl'
+11:54:10 INFO  : Disconnected from the channel tcfchan#1.
+11:54:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+11:54:11 INFO  : 'fpga -state' command is executed.
+11:54:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:54:11 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AD8EA' is selected.
+11:54:11 INFO  : 'jtag frequency' command is executed.
+11:54:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:54:11 INFO  : Context for processor 'microblaze_0' is selected.
+11:54:11 INFO  : Processor reset is completed for 'microblaze_0'.
+11:54:11 INFO  : Context for processor 'microblaze_0' is selected.
+11:54:12 INFO  : The application 'C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf' is downloaded to processor 'microblaze_0'.
+11:54:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf
+----------------End of Script----------------
+
+11:54:12 INFO  : Memory regions updated for context MicroBlaze #0
+11:54:12 INFO  : Memory regions updated for context MicroBlaze #0
+11:54:12 INFO  : Context for processor 'microblaze_0' is selected.
+11:54:12 INFO  : 'con' command is executed.
+11:54:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+con
+----------------End of Script----------------
+
+11:54:12 INFO  : Launch script is exported to file 'C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_calcmicroblaze.elf_on_local.tcl'
+12:14:00 INFO  : Disconnected from the channel tcfchan#2.
+12:14:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+12:14:02 INFO  : 'fpga -state' command is executed.
+12:14:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:14:02 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AD8EA' is selected.
+12:14:02 INFO  : 'jtag frequency' command is executed.
+12:14:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:14:02 INFO  : Context for processor 'microblaze_0' is selected.
+12:14:02 INFO  : Processor reset is completed for 'microblaze_0'.
+12:14:02 INFO  : Context for processor 'microblaze_0' is selected.
+12:14:02 INFO  : The application 'C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf' is downloaded to processor 'microblaze_0'.
+12:14:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf
+----------------End of Script----------------
+
+12:14:02 INFO  : Memory regions updated for context MicroBlaze #0
+12:14:02 INFO  : Memory regions updated for context MicroBlaze #0
+12:14:02 INFO  : Context for processor 'microblaze_0' is selected.
+12:14:02 INFO  : 'con' command is executed.
+12:14:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+con
+----------------End of Script----------------
+
+12:14:02 INFO  : Launch script is exported to file 'C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_calcmicroblaze.elf_on_local.tcl'
+12:17:08 INFO  : Disconnected from the channel tcfchan#3.
+12:17:09 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+12:17:09 INFO  : 'fpga -state' command is executed.
+12:17:09 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:17:09 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AD8EA' is selected.
+12:17:09 INFO  : 'jtag frequency' command is executed.
+12:17:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:17:09 INFO  : Context for processor 'microblaze_0' is selected.
+12:17:09 INFO  : Processor reset is completed for 'microblaze_0'.
+12:17:09 INFO  : Context for processor 'microblaze_0' is selected.
+12:17:09 INFO  : The application 'C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf' is downloaded to processor 'microblaze_0'.
+12:17:09 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf
+----------------End of Script----------------
+
+12:17:09 INFO  : Memory regions updated for context MicroBlaze #0
+12:17:09 INFO  : Memory regions updated for context MicroBlaze #0
+12:17:09 INFO  : Context for processor 'microblaze_0' is selected.
+12:17:09 INFO  : 'con' command is executed.
+12:17:09 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+con
+----------------End of Script----------------
+
+12:17:09 INFO  : Launch script is exported to file 'C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_calcmicroblaze.elf_on_local.tcl'
+12:20:10 INFO  : Disconnected from the channel tcfchan#4.
+12:20:11 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+12:20:11 INFO  : 'fpga -state' command is executed.
+12:20:11 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:20:11 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AD8EA' is selected.
+12:20:11 INFO  : 'jtag frequency' command is executed.
+12:20:11 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:20:11 INFO  : Context for processor 'microblaze_0' is selected.
+12:20:11 INFO  : Processor reset is completed for 'microblaze_0'.
+12:20:11 INFO  : Context for processor 'microblaze_0' is selected.
+12:20:11 INFO  : The application 'C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf' is downloaded to processor 'microblaze_0'.
+12:20:11 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf
+----------------End of Script----------------
+
+12:20:11 INFO  : Memory regions updated for context MicroBlaze #0
+12:20:11 INFO  : Memory regions updated for context MicroBlaze #0
+12:20:12 INFO  : Context for processor 'microblaze_0' is selected.
+12:20:12 INFO  : 'con' command is executed.
+12:20:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+con
+----------------End of Script----------------
+
+12:20:12 INFO  : Launch script is exported to file 'C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_calcmicroblaze.elf_on_local.tcl'
+12:21:27 INFO  : Disconnected from the channel tcfchan#5.
+12:21:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+12:21:28 INFO  : 'fpga -state' command is executed.
+12:21:28 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:21:28 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AD8EA' is selected.
+12:21:28 INFO  : 'jtag frequency' command is executed.
+12:21:28 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:21:28 INFO  : Context for processor 'microblaze_0' is selected.
+12:21:28 INFO  : Processor reset is completed for 'microblaze_0'.
+12:21:28 INFO  : Context for processor 'microblaze_0' is selected.
+12:21:29 INFO  : The application 'C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf' is downloaded to processor 'microblaze_0'.
+12:21:29 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf
+----------------End of Script----------------
+
+12:21:29 INFO  : Memory regions updated for context MicroBlaze #0
+12:21:29 INFO  : Memory regions updated for context MicroBlaze #0
+12:21:29 INFO  : Context for processor 'microblaze_0' is selected.
+12:21:29 INFO  : 'con' command is executed.
+12:21:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+con
+----------------End of Script----------------
+
+12:21:29 INFO  : Launch script is exported to file 'C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_calcmicroblaze.elf_on_local.tcl'
+12:21:55 INFO  : Disconnected from the channel tcfchan#6.
+12:21:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+12:21:56 INFO  : 'fpga -state' command is executed.
+12:21:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:21:57 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AD8EA' is selected.
+12:21:57 INFO  : 'jtag frequency' command is executed.
+12:21:57 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:21:57 INFO  : Context for processor 'microblaze_0' is selected.
+12:21:57 INFO  : Processor reset is completed for 'microblaze_0'.
+12:21:57 INFO  : Context for processor 'microblaze_0' is selected.
+12:21:57 INFO  : The application 'C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf' is downloaded to processor 'microblaze_0'.
+12:21:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf
+----------------End of Script----------------
+
+12:21:57 INFO  : Memory regions updated for context MicroBlaze #0
+12:21:57 INFO  : Memory regions updated for context MicroBlaze #0
+12:21:57 INFO  : Context for processor 'microblaze_0' is selected.
+12:21:57 INFO  : 'con' command is executed.
+12:21:57 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+con
+----------------End of Script----------------
+
+12:21:57 INFO  : Launch script is exported to file 'C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_calcmicroblaze.elf_on_local.tcl'
+12:23:42 INFO  : Disconnected from the channel tcfchan#7.
+12:23:43 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+12:23:43 INFO  : 'fpga -state' command is executed.
+12:23:43 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:23:43 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AD8EA' is selected.
+12:23:43 INFO  : 'jtag frequency' command is executed.
+12:23:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:23:43 INFO  : Context for processor 'microblaze_0' is selected.
+12:23:43 INFO  : Processor reset is completed for 'microblaze_0'.
+12:23:43 INFO  : Context for processor 'microblaze_0' is selected.
+12:23:44 INFO  : The application 'C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf' is downloaded to processor 'microblaze_0'.
+12:23:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf
+----------------End of Script----------------
+
+12:23:44 INFO  : Memory regions updated for context MicroBlaze #0
+12:23:44 INFO  : Memory regions updated for context MicroBlaze #0
+12:23:44 INFO  : Context for processor 'microblaze_0' is selected.
+12:23:44 INFO  : 'con' command is executed.
+12:23:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+con
+----------------End of Script----------------
+
+12:23:44 INFO  : Launch script is exported to file 'C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_calcmicroblaze.elf_on_local.tcl'
+12:35:38 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+12:35:38 INFO  : 'fpga -state' command is executed.
+12:35:38 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:35:38 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AD8EA' is selected.
+12:35:38 INFO  : 'jtag frequency' command is executed.
+12:35:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:35:38 INFO  : Context for processor 'microblaze_0' is selected.
+12:35:38 INFO  : Processor reset is completed for 'microblaze_0'.
+12:35:38 INFO  : Context for processor 'microblaze_0' is selected.
+12:35:39 INFO  : The application 'C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf' is downloaded to processor 'microblaze_0'.
+12:35:39 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf
+----------------End of Script----------------
+
+12:35:39 INFO  : Memory regions updated for context MicroBlaze #0
+12:35:39 INFO  : Memory regions updated for context MicroBlaze #0
+12:35:39 INFO  : Context for processor 'microblaze_0' is selected.
+12:35:39 INFO  : 'con' command is executed.
+12:35:39 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+con
+----------------End of Script----------------
+
+12:35:39 INFO  : Launch script is exported to file 'C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\.sdk\launch_scripts\performance_analysis\performance_analysis_using_debug_calcmicroblaze.elf_on_local.tcl'
+12:35:39 INFO  : Apm configuration has been updated and stored to 'C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\DeterminantMicroBlaze_wrapper_hw_platform_0\apmconfigs\apm_default.json' for the project 'DeterminantMicroBlaze_wrapper_hw_platform_0'
+12:35:39 WARN  : Processor 'microblaze_0' is not supported for performance analysis as extended debug is not enabled.
+12:35:39 WARN  : Processor 'microblaze_0' is not supported for performance analysis as extended debug is not enabled.
+12:35:40 WARN  : Processor 'microblaze_0' is not supported for performance analysis as extended debug is not enabled.
+12:35:40 WARN  : Processor 'microblaze_0' is not supported for performance analysis as extended debug is not enabled.
+12:37:49 INFO  : Disconnected from the channel tcfchan#8.
+12:37:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+12:37:50 INFO  : 'fpga -state' command is executed.
+12:37:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:37:50 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AD8EA' is selected.
+12:37:50 INFO  : 'jtag frequency' command is executed.
+12:37:50 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:37:50 INFO  : Context for processor 'microblaze_0' is selected.
+12:37:51 INFO  : Processor reset is completed for 'microblaze_0'.
+12:37:51 INFO  : Context for processor 'microblaze_0' is selected.
+12:37:51 INFO  : The application 'C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf' is downloaded to processor 'microblaze_0'.
+12:37:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf
+----------------End of Script----------------
+
+12:37:51 INFO  : Memory regions updated for context MicroBlaze #0
+12:37:51 INFO  : Memory regions updated for context MicroBlaze #0
+12:37:51 INFO  : Context for processor 'microblaze_0' is selected.
+12:37:51 INFO  : 'con' command is executed.
+12:37:51 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+con
+----------------End of Script----------------
+
+12:37:51 INFO  : Launch script is exported to file 'C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_calcmicroblaze.elf_on_local.tcl'
+12:37:53 WARN  : Processor 'microblaze_0' is not supported for performance analysis as extended debug is not enabled.
+12:40:09 INFO  : Disconnected from the channel tcfchan#9.
+12:40:10 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+12:40:10 INFO  : 'fpga -state' command is executed.
+12:40:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:40:10 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AD8EA' is selected.
+12:40:10 INFO  : 'jtag frequency' command is executed.
+12:40:10 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:40:10 INFO  : Context for processor 'microblaze_0' is selected.
+12:40:10 INFO  : Processor reset is completed for 'microblaze_0'.
+12:40:10 INFO  : Context for processor 'microblaze_0' is selected.
+12:40:10 INFO  : The application 'C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf' is downloaded to processor 'microblaze_0'.
+12:40:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf
+----------------End of Script----------------
+
+12:40:11 INFO  : Memory regions updated for context MicroBlaze #0
+12:40:11 INFO  : Memory regions updated for context MicroBlaze #0
+12:40:11 INFO  : Context for processor 'microblaze_0' is selected.
+12:40:11 INFO  : 'con' command is executed.
+12:40:11 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+con
+----------------End of Script----------------
+
+12:40:11 INFO  : Launch script is exported to file 'C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_calcmicroblaze.elf_on_local.tcl'
+12:40:13 WARN  : Processor 'microblaze_0' is not supported for performance analysis as extended debug is not enabled.
+12:40:59 INFO  : Disconnected from the channel tcfchan#10.
+12:41:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+12:41:00 INFO  : 'fpga -state' command is executed.
+12:41:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:41:00 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AD8EA' is selected.
+12:41:00 INFO  : 'jtag frequency' command is executed.
+12:41:00 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:41:00 INFO  : Context for processor 'microblaze_0' is selected.
+12:41:00 INFO  : Processor reset is completed for 'microblaze_0'.
+12:41:01 INFO  : Context for processor 'microblaze_0' is selected.
+12:41:01 INFO  : The application 'C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf' is downloaded to processor 'microblaze_0'.
+12:41:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf
+----------------End of Script----------------
+
+12:41:01 INFO  : Memory regions updated for context MicroBlaze #0
+12:41:01 INFO  : Memory regions updated for context MicroBlaze #0
+12:41:01 INFO  : Context for processor 'microblaze_0' is selected.
+12:41:01 INFO  : 'con' command is executed.
+12:41:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+con
+----------------End of Script----------------
+
+12:41:01 INFO  : Launch script is exported to file 'C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_calcmicroblaze.elf_on_local.tcl'
+12:41:03 WARN  : Processor 'microblaze_0' is not supported for performance analysis as extended debug is not enabled.
+12:48:06 INFO  : Disconnected from the channel tcfchan#11.
+12:48:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+12:48:07 INFO  : 'fpga -state' command is executed.
+12:48:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:48:07 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AD8EA' is selected.
+12:48:07 INFO  : 'jtag frequency' command is executed.
+12:48:07 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:48:08 INFO  : Context for processor 'microblaze_0' is selected.
+12:48:08 INFO  : Processor reset is completed for 'microblaze_0'.
+12:48:08 INFO  : Context for processor 'microblaze_0' is selected.
+12:48:08 INFO  : The application 'C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf' is downloaded to processor 'microblaze_0'.
+12:48:08 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf
+----------------End of Script----------------
+
+12:48:08 INFO  : Memory regions updated for context MicroBlaze #0
+12:48:08 INFO  : Memory regions updated for context MicroBlaze #0
+12:48:08 INFO  : Context for processor 'microblaze_0' is selected.
+12:48:08 INFO  : 'con' command is executed.
+12:48:08 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+con
+----------------End of Script----------------
+
+12:48:08 INFO  : Launch script is exported to file 'C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_calcmicroblaze.elf_on_local.tcl'
+12:48:10 WARN  : Processor 'microblaze_0' is not supported for performance analysis as extended debug is not enabled.
+12:49:46 INFO  : Disconnected from the channel tcfchan#12.
+12:49:47 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+12:49:47 INFO  : 'fpga -state' command is executed.
+12:49:47 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:49:47 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AD8EA' is selected.
+12:49:47 INFO  : 'jtag frequency' command is executed.
+12:49:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:49:47 INFO  : Context for processor 'microblaze_0' is selected.
+12:49:47 INFO  : Processor reset is completed for 'microblaze_0'.
+12:49:47 INFO  : Context for processor 'microblaze_0' is selected.
+12:49:47 INFO  : The application 'C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf' is downloaded to processor 'microblaze_0'.
+12:49:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf
+----------------End of Script----------------
+
+12:49:47 INFO  : Memory regions updated for context MicroBlaze #0
+12:49:47 INFO  : Memory regions updated for context MicroBlaze #0
+12:49:48 INFO  : Context for processor 'microblaze_0' is selected.
+12:49:48 INFO  : 'con' command is executed.
+12:49:48 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+con
+----------------End of Script----------------
+
+12:49:48 INFO  : Launch script is exported to file 'C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_calcmicroblaze.elf_on_local.tcl'
+12:49:49 WARN  : Processor 'microblaze_0' is not supported for performance analysis as extended debug is not enabled.
+13:01:39 INFO  : Disconnected from the channel tcfchan#13.
+13:01:40 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+13:01:40 INFO  : 'fpga -state' command is executed.
+13:01:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:01:40 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AD8EA' is selected.
+13:01:40 INFO  : 'jtag frequency' command is executed.
+13:01:40 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:01:40 INFO  : Context for processor 'microblaze_0' is selected.
+13:01:40 INFO  : Processor reset is completed for 'microblaze_0'.
+13:01:40 INFO  : Context for processor 'microblaze_0' is selected.
+13:01:40 INFO  : The application 'C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf' is downloaded to processor 'microblaze_0'.
+13:01:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf
+----------------End of Script----------------
+
+13:01:40 INFO  : Memory regions updated for context MicroBlaze #0
+13:01:40 INFO  : Memory regions updated for context MicroBlaze #0
+13:01:40 INFO  : Context for processor 'microblaze_0' is selected.
+13:01:40 INFO  : 'con' command is executed.
+13:01:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+con
+----------------End of Script----------------
+
+13:01:40 INFO  : Launch script is exported to file 'C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_calcmicroblaze.elf_on_local.tcl'
+13:01:42 WARN  : Processor 'microblaze_0' is not supported for performance analysis as extended debug is not enabled.
+13:03:34 WARN  : channel "tcfchan#8" closed
+13:03:34 INFO  : Disconnected from the channel tcfchan#14.
+13:03:51 INFO  : Registering command handlers for SDK TCF services
+13:03:52 INFO  : Launching XSCT server: xsct.bat -interactive C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\temp_xsdb_launch_script.tcl
+13:03:55 INFO  : XSCT server has started successfully.
+13:03:56 INFO  : Successfully done setting XSCT server connection channel  
+13:03:56 INFO  : Successfully done setting SDK workspace  
+13:03:56 INFO  : Processing command line option -hwspec C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper.hdf.
+13:03:56 INFO  : Checking for hwspec changes in the project DeterminantMicroBlaze_wrapper_hw_platform_0.
+13:04:20 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+13:04:20 INFO  : 'fpga -state' command is executed.
+13:04:20 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:04:20 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AD8EA' is selected.
+13:04:20 INFO  : 'jtag frequency' command is executed.
+13:04:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:04:20 INFO  : Context for processor 'microblaze_0' is selected.
+13:04:20 INFO  : Processor reset is completed for 'microblaze_0'.
+13:04:20 INFO  : Context for processor 'microblaze_0' is selected.
+13:04:20 INFO  : The application 'C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf' is downloaded to processor 'microblaze_0'.
+13:04:20 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf
+----------------End of Script----------------
+
+13:04:21 INFO  : Memory regions updated for context MicroBlaze #0
+13:04:21 INFO  : Memory regions updated for context MicroBlaze #0
+13:04:21 INFO  : Context for processor 'microblaze_0' is selected.
+13:04:21 INFO  : 'con' command is executed.
+13:04:21 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+con
+----------------End of Script----------------
+
+13:04:21 INFO  : Launch script is exported to file 'C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_calcmicroblaze.elf_on_local.tcl'
+13:05:03 INFO  : Disconnected from the channel tcfchan#1.
+13:05:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+13:05:05 INFO  : 'fpga -state' command is executed.
+13:05:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:05:05 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AD8EA' is selected.
+13:05:05 INFO  : 'jtag frequency' command is executed.
+13:05:05 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:05:05 INFO  : Context for processor 'microblaze_0' is selected.
+13:05:05 INFO  : Processor reset is completed for 'microblaze_0'.
+13:05:05 INFO  : Context for processor 'microblaze_0' is selected.
+13:05:05 INFO  : The application 'C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf' is downloaded to processor 'microblaze_0'.
+13:05:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf
+----------------End of Script----------------
+
+13:05:05 INFO  : Memory regions updated for context MicroBlaze #0
+13:05:05 INFO  : Memory regions updated for context MicroBlaze #0
+13:05:05 INFO  : Context for processor 'microblaze_0' is selected.
+13:05:05 INFO  : 'con' command is executed.
+13:05:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+con
+----------------End of Script----------------
+
+13:05:05 INFO  : Launch script is exported to file 'C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_calcmicroblaze.elf_on_local.tcl'
+13:06:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:06:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+13:06:58 INFO  : FPGA configured successfully with bitstream "C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DeterminantMicroBlaze_wrapper_hw_platform_0/download.bit"
+13:07:30 INFO  : Disconnected from the channel tcfchan#2.
+13:07:30 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA" && level==0} -index 0' command is executed.
+13:07:30 INFO  : 'fpga -state' command is executed.
+13:07:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+13:07:30 INFO  : Jtag cable 'Digilent Nexys4DDR 210292A8AD8EA' is selected.
+13:07:30 INFO  : 'jtag frequency' command is executed.
+13:07:30 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+13:07:31 INFO  : Context for processor 'microblaze_0' is selected.
+13:07:31 INFO  : Processor reset is completed for 'microblaze_0'.
+13:07:31 INFO  : Context for processor 'microblaze_0' is selected.
+13:07:31 INFO  : The application 'C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf' is downloaded to processor 'microblaze_0'.
+13:07:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+rst -processor
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+dow C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/CalcMicroBlaze/Debug/CalcMicroBlaze.elf
+----------------End of Script----------------
+
+13:07:31 INFO  : Memory regions updated for context MicroBlaze #0
+13:07:31 INFO  : Memory regions updated for context MicroBlaze #0
+13:07:31 INFO  : Context for processor 'microblaze_0' is selected.
+13:07:31 INFO  : 'con' command is executed.
+13:07:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "microblaze*#0" && bscan=="USER2"  && jtag_cable_name =~ "Digilent Nexys4DDR 210292A8AD8EA"} -index 0
+con
+----------------End of Script----------------
+
+13:07:31 INFO  : Launch script is exported to file 'C:\Users\OAkun\Desktop\CECS460Micro\ALUMicroBlazeTimer\.sdk\launch_scripts\xilinx_c-c++_application_(system_debugger)\system_debugger_using_debug_calcmicroblaze.elf_on_local.tcl'
+13:10:26 INFO  : Disconnected from the channel tcfchan#3.

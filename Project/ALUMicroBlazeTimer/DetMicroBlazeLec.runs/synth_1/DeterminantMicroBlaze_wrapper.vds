@@ -1,0 +1,805 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu May 13 11:40:18 2021
+# Process ID: 20104
+# Current directory: C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1
+# Command line: vivado.exe -log DeterminantMicroBlaze_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DeterminantMicroBlaze_wrapper.tcl
+# Log file: C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/DeterminantMicroBlaze_wrapper.vds
+# Journal file: C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source DeterminantMicroBlaze_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.1/data/ip'.
+add_files: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 449.059 ; gain = 53.355
+Command: synth_design -top DeterminantMicroBlaze_wrapper -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 15720 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 898.758 ; gain = 178.836
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_wrapper' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/hdl/DeterminantMicroBlaze_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:13]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_DeterminantTopModule_0_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_DeterminantTopModule_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_DeterminantTopModule_0_0' (1#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_DeterminantTopModule_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_0_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_0_0' (2#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_1_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_1_0' (3#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_10_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_10_0' (4#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_10_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_11_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_11_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_11_0' (5#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_11_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_12_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_12_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_12_0' (6#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_12_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_13_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_13_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_13_0' (7#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_13_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_14_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_14_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_14_0' (8#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_14_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_15_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_15_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_15_0' (9#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_15_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_16_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_16_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_16_0' (10#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_16_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_17_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_17_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_17_0' (11#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_17_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_18_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_18_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_18_0' (12#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_18_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_19_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_19_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_19_0' (13#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_19_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_2_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_2_0' (14#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_2_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_20_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_20_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_20_0' (15#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_20_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_21_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_21_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_21_0' (16#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_21_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_22_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_22_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_22_0' (17#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_22_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_23_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_23_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_23_0' (18#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_23_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_24_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_24_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_24_0' (19#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_24_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_25_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_25_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_25_0' (20#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_25_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_26_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_26_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_26_0' (21#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_26_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_27_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_27_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_27_0' (22#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_27_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_28_1' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_28_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_28_1' (23#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_28_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_29_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_29_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_29_0' (24#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_29_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_3_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_3_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_3_0' (25#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_3_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_4_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_4_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_4_0' (26#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_4_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_5_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_5_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_5_0' (27#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_5_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_6_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_6_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_6_0' (28#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_6_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_7_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_7_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_7_0' (29#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_7_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_8_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_8_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_8_0' (30#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_8_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_gpio_9_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_9_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_gpio_9_0' (31#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_gpio_9_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_timer_0_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_timer_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_timer_0_0' (32#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_timer_0_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'axi_timer_0' of module 'DeterminantMicroBlaze_axi_timer_0_0' has 26 connections declared, but only 22 given [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:1333]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_axi_uartlite_0_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_axi_uartlite_0_0' (33#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_axi_uartlite_0_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'axi_uartlite_0' of module 'DeterminantMicroBlaze_axi_uartlite_0_0' has 22 connections declared, but only 21 given [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:1356]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_clk_wiz_0_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_clk_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_clk_wiz_0_0' (34#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_clk_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_mdm_1_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_mdm_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_mdm_1_0' (35#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_mdm_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_microblaze_0_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_microblaze_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_microblaze_0_0' (36#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_microblaze_0_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'microblaze_0' of module 'DeterminantMicroBlaze_microblaze_0_0' has 52 connections declared, but only 51 given [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:1396]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_microblaze_0_axi_periph_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:2116]
+INFO: [Synth 8-6157] synthesizing module 'i00_couplers_imp_12POUQZ' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:6888]
+INFO: [Synth 8-6155] done synthesizing module 'i00_couplers_imp_12POUQZ' (37#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:6888]
+INFO: [Synth 8-6157] synthesizing module 'i01_couplers_imp_110AHDM' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:7034]
+INFO: [Synth 8-6155] done synthesizing module 'i01_couplers_imp_110AHDM' (38#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:7034]
+INFO: [Synth 8-6157] synthesizing module 'i02_couplers_imp_15P5QMH' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:7180]
+INFO: [Synth 8-6155] done synthesizing module 'i02_couplers_imp_15P5QMH' (39#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:7180]
+INFO: [Synth 8-6157] synthesizing module 'i03_couplers_imp_16D42QG' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:7326]
+INFO: [Synth 8-6155] done synthesizing module 'i03_couplers_imp_16D42QG' (40#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:7326]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_MA2ZC7' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:7472]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_MA2ZC7' (41#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:7472]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_Q9MLYU' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:7604]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_Q9MLYU' (42#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:7604]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_LI96TH' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:7736]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_LI96TH' (43#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:7736]
+INFO: [Synth 8-6157] synthesizing module 'm03_couplers_imp_IP69SK' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:7868]
+INFO: [Synth 8-6155] done synthesizing module 'm03_couplers_imp_IP69SK' (44#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:7868]
+INFO: [Synth 8-6157] synthesizing module 'm04_couplers_imp_TX14IR' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:8000]
+INFO: [Synth 8-6155] done synthesizing module 'm04_couplers_imp_TX14IR' (45#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:8000]
+INFO: [Synth 8-6157] synthesizing module 'm05_couplers_imp_S2X59U' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:8132]
+INFO: [Synth 8-6155] done synthesizing module 'm05_couplers_imp_S2X59U' (46#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:8132]
+INFO: [Synth 8-6157] synthesizing module 'm06_couplers_imp_WRSR5T' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:8264]
+INFO: [Synth 8-6155] done synthesizing module 'm06_couplers_imp_WRSR5T' (47#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:8264]
+INFO: [Synth 8-6157] synthesizing module 'm07_couplers_imp_XKFZV4' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:8396]
+INFO: [Synth 8-6155] done synthesizing module 'm07_couplers_imp_XKFZV4' (48#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:8396]
+INFO: [Synth 8-6157] synthesizing module 'm08_couplers_imp_AY2SQ7' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:8528]
+INFO: [Synth 8-6155] done synthesizing module 'm08_couplers_imp_AY2SQ7' (49#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:8528]
+INFO: [Synth 8-6157] synthesizing module 'm09_couplers_imp_BJBI2M' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:8660]
+INFO: [Synth 8-6155] done synthesizing module 'm09_couplers_imp_BJBI2M' (50#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:8660]
+INFO: [Synth 8-6157] synthesizing module 'm10_couplers_imp_18U2219' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:8792]
+INFO: [Synth 8-6155] done synthesizing module 'm10_couplers_imp_18U2219' (51#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:8792]
+INFO: [Synth 8-6157] synthesizing module 'm11_couplers_imp_1COG9I4' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:8924]
+INFO: [Synth 8-6155] done synthesizing module 'm11_couplers_imp_1COG9I4' (52#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:8924]
+INFO: [Synth 8-6157] synthesizing module 'm12_couplers_imp_1G9D5DB' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:9056]
+INFO: [Synth 8-6155] done synthesizing module 'm12_couplers_imp_1G9D5DB' (53#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:9056]
+INFO: [Synth 8-6157] synthesizing module 'm13_couplers_imp_1DLFNI6' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:9188]
+INFO: [Synth 8-6155] done synthesizing module 'm13_couplers_imp_1DLFNI6' (54#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:9188]
+INFO: [Synth 8-6157] synthesizing module 'm14_couplers_imp_16QMBUX' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:9320]
+INFO: [Synth 8-6155] done synthesizing module 'm14_couplers_imp_16QMBUX' (55#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:9320]
+INFO: [Synth 8-6157] synthesizing module 'm15_couplers_imp_15BNCRC' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:9452]
+INFO: [Synth 8-6155] done synthesizing module 'm15_couplers_imp_15BNCRC' (56#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:9452]
+INFO: [Synth 8-6157] synthesizing module 'm16_couplers_imp_11O8NQJ' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:9584]
+INFO: [Synth 8-6155] done synthesizing module 'm16_couplers_imp_11O8NQJ' (57#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:9584]
+INFO: [Synth 8-6157] synthesizing module 'm17_couplers_imp_121QWAI' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:9716]
+INFO: [Synth 8-6155] done synthesizing module 'm17_couplers_imp_121QWAI' (58#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:9716]
+INFO: [Synth 8-6157] synthesizing module 'm18_couplers_imp_1NK7K91' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:9848]
+INFO: [Synth 8-6155] done synthesizing module 'm18_couplers_imp_1NK7K91' (59#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:9848]
+INFO: [Synth 8-6157] synthesizing module 'm19_couplers_imp_1O0M3DG' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:9980]
+INFO: [Synth 8-6155] done synthesizing module 'm19_couplers_imp_1O0M3DG' (60#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:9980]
+INFO: [Synth 8-6157] synthesizing module 'm20_couplers_imp_T06ZCI' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:10112]
+INFO: [Synth 8-6155] done synthesizing module 'm20_couplers_imp_T06ZCI' (61#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:10112]
+INFO: [Synth 8-6157] synthesizing module 'm21_couplers_imp_SF5NDV' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:10244]
+INFO: [Synth 8-6155] done synthesizing module 'm21_couplers_imp_SF5NDV' (62#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:10244]
+INFO: [Synth 8-6157] synthesizing module 'm22_couplers_imp_WJFC28' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:10376]
+INFO: [Synth 8-6155] done synthesizing module 'm22_couplers_imp_WJFC28' (63#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:10376]
+INFO: [Synth 8-6157] synthesizing module 'm23_couplers_imp_YAX79D' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:10508]
+INFO: [Synth 8-6155] done synthesizing module 'm23_couplers_imp_YAX79D' (64#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:10508]
+INFO: [Synth 8-6157] synthesizing module 'm24_couplers_imp_N1XGL2' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:10640]
+INFO: [Synth 8-6155] done synthesizing module 'm24_couplers_imp_N1XGL2' (65#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:10640]
+INFO: [Synth 8-6157] synthesizing module 'm25_couplers_imp_Q2DUXZ' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:10772]
+INFO: [Synth 8-6155] done synthesizing module 'm25_couplers_imp_Q2DUXZ' (66#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:10772]
+INFO: [Synth 8-6157] synthesizing module 'm26_couplers_imp_LVMJDG' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:10904]
+INFO: [Synth 8-6155] done synthesizing module 'm26_couplers_imp_LVMJDG' (67#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:10904]
+INFO: [Synth 8-6157] synthesizing module 'm27_couplers_imp_HTP83P' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:11036]
+INFO: [Synth 8-6155] done synthesizing module 'm27_couplers_imp_HTP83P' (68#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:11036]
+INFO: [Synth 8-6157] synthesizing module 'm28_couplers_imp_8SS6BE' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:11168]
+INFO: [Synth 8-6155] done synthesizing module 'm28_couplers_imp_8SS6BE' (69#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:11168]
+INFO: [Synth 8-6157] synthesizing module 'm29_couplers_imp_4SZ297' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:11300]
+INFO: [Synth 8-6155] done synthesizing module 'm29_couplers_imp_4SZ297' (70#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:11300]
+INFO: [Synth 8-6157] synthesizing module 'm30_couplers_imp_16JJ7X4' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:11432]
+INFO: [Synth 8-6155] done synthesizing module 'm30_couplers_imp_16JJ7X4' (71#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:11432]
+INFO: [Synth 8-6157] synthesizing module 'm31_couplers_imp_163C26H' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:11564]
+INFO: [Synth 8-6155] done synthesizing module 'm31_couplers_imp_163C26H' (72#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:11564]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_N42ZOM' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:11930]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_N42ZOM' (73#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:11930]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_tier2_xbar_0_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_tier2_xbar_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_tier2_xbar_0_0' (74#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_tier2_xbar_0_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'tier2_xbar_0' of module 'DeterminantMicroBlaze_tier2_xbar_0_0' has 40 connections declared, but only 38 given [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:6689]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_tier2_xbar_1_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_tier2_xbar_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_tier2_xbar_1_0' (75#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_tier2_xbar_1_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'tier2_xbar_1' of module 'DeterminantMicroBlaze_tier2_xbar_1_0' has 40 connections declared, but only 38 given [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:6728]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_tier2_xbar_2_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_tier2_xbar_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_tier2_xbar_2_0' (76#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_tier2_xbar_2_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'tier2_xbar_2' of module 'DeterminantMicroBlaze_tier2_xbar_2_0' has 40 connections declared, but only 38 given [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:6767]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_tier2_xbar_3_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_tier2_xbar_3_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_tier2_xbar_3_0' (77#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_tier2_xbar_3_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'tier2_xbar_3' of module 'DeterminantMicroBlaze_tier2_xbar_3_0' has 40 connections declared, but only 38 given [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:6806]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_xbar_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_xbar_0' (78#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_microblaze_0_axi_periph_0' (79#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:2116]
+INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_5CYS9E' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:11696]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_dlmb_bram_if_cntlr_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_dlmb_bram_if_cntlr_0' (80#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_dlmb_v10_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_dlmb_v10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_dlmb_v10_0' (81#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_dlmb_v10_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'DeterminantMicroBlaze_dlmb_v10_0' has 25 connections declared, but only 24 given [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:11842]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_ilmb_bram_if_cntlr_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_ilmb_bram_if_cntlr_0' (82#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_ilmb_v10_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_ilmb_v10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_ilmb_v10_0' (83#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_ilmb_v10_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'DeterminantMicroBlaze_ilmb_v10_0' has 25 connections declared, but only 24 given [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:11888]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_lmb_bram_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_lmb_bram_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_lmb_bram_0' (84#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_lmb_bram_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'DeterminantMicroBlaze_lmb_bram_0' has 16 connections declared, but only 14 given [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:11913]
+INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_5CYS9E' (85#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:11696]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_rst_clk_wiz_0_100M_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_rst_clk_wiz_0_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_rst_clk_wiz_0_100M_0' (86#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_rst_clk_wiz_0_100M_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'rst_clk_wiz_0_100M' of module 'DeterminantMicroBlaze_rst_clk_wiz_0_100M_0' has 10 connections declared, but only 8 given [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:2102]
+INFO: [Synth 8-6157] synthesizing module 'DeterminantMicroBlaze_util_vector_logic_0_0' [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_util_vector_logic_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_util_vector_logic_0_0' (87#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/.Xil/Vivado-20104-DESKTOP-NDOLUA7/realtime/DeterminantMicroBlaze_util_vector_logic_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze' (88#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/synth/DeterminantMicroBlaze.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'DeterminantMicroBlaze_wrapper' (89#1) [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/hdl/DeterminantMicroBlaze_wrapper.v:12]
+WARNING: [Synth 8-3331] design s00_couplers_imp_N42ZOM has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_N42ZOM has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design s00_couplers_imp_N42ZOM has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_N42ZOM has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m31_couplers_imp_163C26H has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m31_couplers_imp_163C26H has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m31_couplers_imp_163C26H has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m31_couplers_imp_163C26H has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m30_couplers_imp_16JJ7X4 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m30_couplers_imp_16JJ7X4 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m30_couplers_imp_16JJ7X4 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m30_couplers_imp_16JJ7X4 has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m29_couplers_imp_4SZ297 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m29_couplers_imp_4SZ297 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m29_couplers_imp_4SZ297 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m29_couplers_imp_4SZ297 has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m28_couplers_imp_8SS6BE has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m28_couplers_imp_8SS6BE has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m28_couplers_imp_8SS6BE has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m28_couplers_imp_8SS6BE has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m27_couplers_imp_HTP83P has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m27_couplers_imp_HTP83P has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m27_couplers_imp_HTP83P has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m27_couplers_imp_HTP83P has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m26_couplers_imp_LVMJDG has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m26_couplers_imp_LVMJDG has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m26_couplers_imp_LVMJDG has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m26_couplers_imp_LVMJDG has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m25_couplers_imp_Q2DUXZ has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m25_couplers_imp_Q2DUXZ has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m25_couplers_imp_Q2DUXZ has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m25_couplers_imp_Q2DUXZ has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m24_couplers_imp_N1XGL2 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m24_couplers_imp_N1XGL2 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m24_couplers_imp_N1XGL2 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m24_couplers_imp_N1XGL2 has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m23_couplers_imp_YAX79D has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m23_couplers_imp_YAX79D has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m23_couplers_imp_YAX79D has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m23_couplers_imp_YAX79D has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m22_couplers_imp_WJFC28 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m22_couplers_imp_WJFC28 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m22_couplers_imp_WJFC28 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m22_couplers_imp_WJFC28 has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m21_couplers_imp_SF5NDV has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m21_couplers_imp_SF5NDV has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m21_couplers_imp_SF5NDV has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m21_couplers_imp_SF5NDV has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m20_couplers_imp_T06ZCI has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m20_couplers_imp_T06ZCI has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m20_couplers_imp_T06ZCI has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m20_couplers_imp_T06ZCI has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m19_couplers_imp_1O0M3DG has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m19_couplers_imp_1O0M3DG has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m19_couplers_imp_1O0M3DG has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m19_couplers_imp_1O0M3DG has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m18_couplers_imp_1NK7K91 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m18_couplers_imp_1NK7K91 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m18_couplers_imp_1NK7K91 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m18_couplers_imp_1NK7K91 has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m17_couplers_imp_121QWAI has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m17_couplers_imp_121QWAI has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m17_couplers_imp_121QWAI has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m17_couplers_imp_121QWAI has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m16_couplers_imp_11O8NQJ has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m16_couplers_imp_11O8NQJ has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m16_couplers_imp_11O8NQJ has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m16_couplers_imp_11O8NQJ has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m15_couplers_imp_15BNCRC has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m15_couplers_imp_15BNCRC has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m15_couplers_imp_15BNCRC has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m15_couplers_imp_15BNCRC has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m14_couplers_imp_16QMBUX has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m14_couplers_imp_16QMBUX has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m14_couplers_imp_16QMBUX has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m14_couplers_imp_16QMBUX has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m13_couplers_imp_1DLFNI6 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m13_couplers_imp_1DLFNI6 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m13_couplers_imp_1DLFNI6 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m13_couplers_imp_1DLFNI6 has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m12_couplers_imp_1G9D5DB has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m12_couplers_imp_1G9D5DB has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m12_couplers_imp_1G9D5DB has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m12_couplers_imp_1G9D5DB has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m11_couplers_imp_1COG9I4 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m11_couplers_imp_1COG9I4 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m11_couplers_imp_1COG9I4 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m11_couplers_imp_1COG9I4 has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m10_couplers_imp_18U2219 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m10_couplers_imp_18U2219 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m10_couplers_imp_18U2219 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m10_couplers_imp_18U2219 has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m09_couplers_imp_BJBI2M has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m09_couplers_imp_BJBI2M has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m09_couplers_imp_BJBI2M has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m09_couplers_imp_BJBI2M has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m08_couplers_imp_AY2SQ7 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m08_couplers_imp_AY2SQ7 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m08_couplers_imp_AY2SQ7 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m08_couplers_imp_AY2SQ7 has unconnected port S_ARESETN
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 974.992 ; gain = 255.070
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 974.992 ; gain = 255.070
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 974.992 ; gain = 255.070
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_clk_wiz_0_0/DeterminantMicroBlaze_clk_wiz_0_0/DeterminantMicroBlaze_clk_wiz_0_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/clk_wiz_0'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_clk_wiz_0_0/DeterminantMicroBlaze_clk_wiz_0_0/DeterminantMicroBlaze_clk_wiz_0_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/clk_wiz_0'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_DeterminantTopModule_0_0/DeterminantMicroBlaze_DeterminantTopModule_0_0/DeterminantMicroBlaze_DeterminantTopModule_0_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/DeterminantTopModule_0'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_DeterminantTopModule_0_0/DeterminantMicroBlaze_DeterminantTopModule_0_0/DeterminantMicroBlaze_DeterminantTopModule_0_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/DeterminantTopModule_0'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_uartlite_0_0/DeterminantMicroBlaze_axi_uartlite_0_0/DeterminantMicroBlaze_axi_uartlite_0_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_uartlite_0'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_uartlite_0_0/DeterminantMicroBlaze_axi_uartlite_0_0/DeterminantMicroBlaze_axi_uartlite_0_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_uartlite_0'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_0_0/DeterminantMicroBlaze_axi_gpio_0_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_0'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_0_0/DeterminantMicroBlaze_axi_gpio_0_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_0'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_1_0/DeterminantMicroBlaze_axi_gpio_1_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_1'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_1_0/DeterminantMicroBlaze_axi_gpio_1_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_1'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_2_0/DeterminantMicroBlaze_axi_gpio_2_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_2'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_2_0/DeterminantMicroBlaze_axi_gpio_2_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_2'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_3_0/DeterminantMicroBlaze_axi_gpio_3_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_3'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_3_0/DeterminantMicroBlaze_axi_gpio_3_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_3'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_4_0/DeterminantMicroBlaze_axi_gpio_4_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_4'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_4_0/DeterminantMicroBlaze_axi_gpio_4_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_4'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_5_0/DeterminantMicroBlaze_axi_gpio_5_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_5'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_5_0/DeterminantMicroBlaze_axi_gpio_5_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_5'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_6_0/DeterminantMicroBlaze_axi_gpio_6_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_6'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_6_0/DeterminantMicroBlaze_axi_gpio_6_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_6'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_7_0/DeterminantMicroBlaze_axi_gpio_7_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_7'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_7_0/DeterminantMicroBlaze_axi_gpio_7_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_7'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_8_0/DeterminantMicroBlaze_axi_gpio_8_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_8'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_8_0/DeterminantMicroBlaze_axi_gpio_8_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_8'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_9_0/DeterminantMicroBlaze_axi_gpio_9_0/DeterminantMicroBlaze_axi_gpio_9_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_9'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_9_0/DeterminantMicroBlaze_axi_gpio_9_0/DeterminantMicroBlaze_axi_gpio_9_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_9'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_microblaze_0_0/DeterminantMicroBlaze_microblaze_0_0/DeterminantMicroBlaze_microblaze_0_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_microblaze_0_0/DeterminantMicroBlaze_microblaze_0_0/DeterminantMicroBlaze_microblaze_0_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_dlmb_v10_0/DeterminantMicroBlaze_dlmb_v10_0/DeterminantMicroBlaze_dlmb_v10_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0_local_memory/dlmb_v10'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_dlmb_v10_0/DeterminantMicroBlaze_dlmb_v10_0/DeterminantMicroBlaze_dlmb_v10_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0_local_memory/dlmb_v10'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_ilmb_v10_0/DeterminantMicroBlaze_ilmb_v10_0/DeterminantMicroBlaze_dlmb_v10_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0_local_memory/ilmb_v10'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_ilmb_v10_0/DeterminantMicroBlaze_ilmb_v10_0/DeterminantMicroBlaze_dlmb_v10_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0_local_memory/ilmb_v10'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_dlmb_bram_if_cntlr_0/DeterminantMicroBlaze_dlmb_bram_if_cntlr_0/DeterminantMicroBlaze_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_dlmb_bram_if_cntlr_0/DeterminantMicroBlaze_dlmb_bram_if_cntlr_0/DeterminantMicroBlaze_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_ilmb_bram_if_cntlr_0/DeterminantMicroBlaze_ilmb_bram_if_cntlr_0/DeterminantMicroBlaze_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_ilmb_bram_if_cntlr_0/DeterminantMicroBlaze_ilmb_bram_if_cntlr_0/DeterminantMicroBlaze_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_lmb_bram_0/DeterminantMicroBlaze_lmb_bram_0/DeterminantMicroBlaze_lmb_bram_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0_local_memory/lmb_bram'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_lmb_bram_0/DeterminantMicroBlaze_lmb_bram_0/DeterminantMicroBlaze_lmb_bram_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0_local_memory/lmb_bram'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_mdm_1_0/DeterminantMicroBlaze_mdm_1_0/DeterminantMicroBlaze_mdm_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/mdm_1'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_mdm_1_0/DeterminantMicroBlaze_mdm_1_0/DeterminantMicroBlaze_mdm_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/mdm_1'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_rst_clk_wiz_0_100M_0/DeterminantMicroBlaze_rst_clk_wiz_0_100M_0/DeterminantMicroBlaze_rst_clk_wiz_0_100M_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/rst_clk_wiz_0_100M'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_rst_clk_wiz_0_100M_0/DeterminantMicroBlaze_rst_clk_wiz_0_100M_0/DeterminantMicroBlaze_rst_clk_wiz_0_100M_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/rst_clk_wiz_0_100M'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_xbar_0/DeterminantMicroBlaze_xbar_0/DeterminantMicroBlaze_xbar_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0_axi_periph/xbar'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_xbar_0/DeterminantMicroBlaze_xbar_0/DeterminantMicroBlaze_xbar_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0_axi_periph/xbar'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_util_vector_logic_0_0/DeterminantMicroBlaze_util_vector_logic_0_0/DeterminantMicroBlaze_util_vector_logic_0_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/util_vector_logic_0'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_util_vector_logic_0_0/DeterminantMicroBlaze_util_vector_logic_0_0/DeterminantMicroBlaze_util_vector_logic_0_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/util_vector_logic_0'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_timer_0_0/DeterminantMicroBlaze_axi_timer_0_0/DeterminantMicroBlaze_axi_timer_0_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_timer_0'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_timer_0_0/DeterminantMicroBlaze_axi_timer_0_0/DeterminantMicroBlaze_axi_timer_0_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_timer_0'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_10_0/DeterminantMicroBlaze_axi_gpio_10_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_10'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_10_0/DeterminantMicroBlaze_axi_gpio_10_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_10'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_11_0/DeterminantMicroBlaze_axi_gpio_11_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_11'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_11_0/DeterminantMicroBlaze_axi_gpio_11_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_11'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_12_0/DeterminantMicroBlaze_axi_gpio_12_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_12'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_12_0/DeterminantMicroBlaze_axi_gpio_12_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_12'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_13_0/DeterminantMicroBlaze_axi_gpio_13_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_13'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_13_0/DeterminantMicroBlaze_axi_gpio_13_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_13'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_14_0/DeterminantMicroBlaze_axi_gpio_14_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_14'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_14_0/DeterminantMicroBlaze_axi_gpio_14_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_14'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_15_0/DeterminantMicroBlaze_axi_gpio_15_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_15'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_15_0/DeterminantMicroBlaze_axi_gpio_15_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_15'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_16_0/DeterminantMicroBlaze_axi_gpio_16_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_16'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_16_0/DeterminantMicroBlaze_axi_gpio_16_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_16'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_17_0/DeterminantMicroBlaze_axi_gpio_17_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_17'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_17_0/DeterminantMicroBlaze_axi_gpio_17_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_17'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_18_0/DeterminantMicroBlaze_axi_gpio_18_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_18'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_18_0/DeterminantMicroBlaze_axi_gpio_18_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_18'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_19_0/DeterminantMicroBlaze_axi_gpio_19_0/DeterminantMicroBlaze_axi_gpio_9_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_19'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_19_0/DeterminantMicroBlaze_axi_gpio_19_0/DeterminantMicroBlaze_axi_gpio_9_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_19'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_20_0/DeterminantMicroBlaze_axi_gpio_20_0/DeterminantMicroBlaze_axi_gpio_9_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_20'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_20_0/DeterminantMicroBlaze_axi_gpio_20_0/DeterminantMicroBlaze_axi_gpio_9_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_20'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_21_0/DeterminantMicroBlaze_axi_gpio_21_0/DeterminantMicroBlaze_axi_gpio_9_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_21'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_21_0/DeterminantMicroBlaze_axi_gpio_21_0/DeterminantMicroBlaze_axi_gpio_9_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_21'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_22_0/DeterminantMicroBlaze_axi_gpio_22_0/DeterminantMicroBlaze_axi_gpio_9_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_22'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_22_0/DeterminantMicroBlaze_axi_gpio_22_0/DeterminantMicroBlaze_axi_gpio_9_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_22'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_23_0/DeterminantMicroBlaze_axi_gpio_23_0/DeterminantMicroBlaze_axi_gpio_9_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_23'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_23_0/DeterminantMicroBlaze_axi_gpio_23_0/DeterminantMicroBlaze_axi_gpio_9_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_23'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_24_0/DeterminantMicroBlaze_axi_gpio_24_0/DeterminantMicroBlaze_axi_gpio_9_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_24'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_24_0/DeterminantMicroBlaze_axi_gpio_24_0/DeterminantMicroBlaze_axi_gpio_9_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_24'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_25_0/DeterminantMicroBlaze_axi_gpio_25_0/DeterminantMicroBlaze_axi_gpio_9_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_25'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_25_0/DeterminantMicroBlaze_axi_gpio_25_0/DeterminantMicroBlaze_axi_gpio_9_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_25'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_26_0/DeterminantMicroBlaze_axi_gpio_26_0/DeterminantMicroBlaze_axi_gpio_9_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_26'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_26_0/DeterminantMicroBlaze_axi_gpio_26_0/DeterminantMicroBlaze_axi_gpio_9_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_26'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_27_0/DeterminantMicroBlaze_axi_gpio_27_0/DeterminantMicroBlaze_axi_gpio_9_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_27'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_27_0/DeterminantMicroBlaze_axi_gpio_27_0/DeterminantMicroBlaze_axi_gpio_9_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_27'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_28_1/DeterminantMicroBlaze_axi_gpio_28_1/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_28'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_28_1/DeterminantMicroBlaze_axi_gpio_28_1/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_28'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_29_0/DeterminantMicroBlaze_axi_gpio_29_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_29'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_axi_gpio_29_0/DeterminantMicroBlaze_axi_gpio_29_0/DeterminantMicroBlaze_axi_gpio_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/axi_gpio_29'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_tier2_xbar_0_0/DeterminantMicroBlaze_tier2_xbar_0_0/DeterminantMicroBlaze_tier2_xbar_0_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0_axi_periph/tier2_xbar_0'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_tier2_xbar_0_0/DeterminantMicroBlaze_tier2_xbar_0_0/DeterminantMicroBlaze_tier2_xbar_0_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0_axi_periph/tier2_xbar_0'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_tier2_xbar_1_0/DeterminantMicroBlaze_tier2_xbar_1_0/DeterminantMicroBlaze_tier2_xbar_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0_axi_periph/tier2_xbar_1'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_tier2_xbar_1_0/DeterminantMicroBlaze_tier2_xbar_1_0/DeterminantMicroBlaze_tier2_xbar_1_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0_axi_periph/tier2_xbar_1'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_tier2_xbar_2_0/DeterminantMicroBlaze_tier2_xbar_2_0/DeterminantMicroBlaze_tier2_xbar_2_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0_axi_periph/tier2_xbar_2'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_tier2_xbar_2_0/DeterminantMicroBlaze_tier2_xbar_2_0/DeterminantMicroBlaze_tier2_xbar_2_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0_axi_periph/tier2_xbar_2'
+Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_tier2_xbar_3_0/DeterminantMicroBlaze_tier2_xbar_3_0/DeterminantMicroBlaze_tier2_xbar_3_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0_axi_periph/tier2_xbar_3'
+Finished Parsing XDC File [c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_tier2_xbar_3_0/DeterminantMicroBlaze_tier2_xbar_3_0/DeterminantMicroBlaze_tier2_xbar_3_0_in_context.xdc] for cell 'DeterminantMicroBlaze_i/microblaze_0_axi_periph/tier2_xbar_3'
+Parsing XDC File [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/constrs_1/imports/DeterminantMicroBlazeRecording/Nexys4ddrMaster.xdc]
+Finished Parsing XDC File [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/constrs_1/imports/DeterminantMicroBlazeRecording/Nexys4ddrMaster.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/constrs_1/imports/DeterminantMicroBlazeRecording/Nexys4ddrMaster.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/DeterminantMicroBlaze_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/DeterminantMicroBlaze_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1114.746 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1114.746 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'DeterminantMicroBlaze_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1118.020 ; gain = 398.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1118.020 ; gain = 398.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk. (constraint file  c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_clk_wiz_0_0/DeterminantMicroBlaze_clk_wiz_0_0/DeterminantMicroBlaze_clk_wiz_0_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk. (constraint file  c:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/ip/DeterminantMicroBlaze_clk_wiz_0_0/DeterminantMicroBlaze_clk_wiz_0_0/DeterminantMicroBlaze_clk_wiz_0_0_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/clk_wiz_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/DeterminantTopModule_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_uartlite_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/microblaze_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/microblaze_0_local_memory/dlmb_v10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/microblaze_0_local_memory/ilmb_v10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/microblaze_0_local_memory/dlmb_bram_if_cntlr. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/microblaze_0_local_memory/ilmb_bram_if_cntlr. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/microblaze_0_local_memory/lmb_bram. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/mdm_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/rst_clk_wiz_0_100M. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/microblaze_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/microblaze_0_axi_periph. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/util_vector_logic_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_timer_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_11. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_12. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_13. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_14. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_15. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_16. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_17. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_18. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_19. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_20. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_21. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_22. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_23. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_24. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_25. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_26. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_27. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_28. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/axi_gpio_29. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/microblaze_0_axi_periph/tier2_xbar_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/microblaze_0_axi_periph/tier2_xbar_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/microblaze_0_axi_periph/tier2_xbar_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for DeterminantMicroBlaze_i/microblaze_0_axi_periph/tier2_xbar_3. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1118.020 ; gain = 398.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1118.020 ; gain = 398.098
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1118.020 ; gain = 398.098
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'DeterminantMicroBlaze_i/clk_wiz_0/clk_out1' to pin 'DeterminantMicroBlaze_i/clk_wiz_0/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'DeterminantMicroBlaze_i/microblaze_0_local_memory/dlmb_bram_if_cntlr/BRAM_Clk_A' to pin 'DeterminantMicroBlaze_i/microblaze_0_local_memory/dlmb_bram_if_cntlr/bbstub_BRAM_Clk_A/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'DeterminantMicroBlaze_i/microblaze_0_local_memory/ilmb_bram_if_cntlr/BRAM_Clk_A' to pin 'DeterminantMicroBlaze_i/microblaze_0_local_memory/ilmb_bram_if_cntlr/bbstub_BRAM_Clk_A/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'DeterminantMicroBlaze_i/mdm_1/Dbg_Clk_0' to pin 'DeterminantMicroBlaze_i/mdm_1/bbstub_Dbg_Clk_0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'DeterminantMicroBlaze_i/mdm_1/Dbg_Update_0' to pin 'DeterminantMicroBlaze_i/mdm_1/bbstub_Dbg_Update_0/O'
+INFO: [Synth 8-5819] Moved 5 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1118.020 ; gain = 398.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1118.020 ; gain = 398.098
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1118.020 ; gain = 398.098
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 1118.020 ; gain = 398.098
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1118.020 ; gain = 398.098
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1118.020 ; gain = 398.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1118.020 ; gain = 398.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1118.020 ; gain = 398.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1118.020 ; gain = 398.098
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-----------------------------------------------+----------+
+|      |BlackBox name                                  |Instances |
++------+-----------------------------------------------+----------+
+|1     |DeterminantMicroBlaze_tier2_xbar_0_0           |         1|
+|2     |DeterminantMicroBlaze_tier2_xbar_1_0           |         1|
+|3     |DeterminantMicroBlaze_tier2_xbar_2_0           |         1|
+|4     |DeterminantMicroBlaze_tier2_xbar_3_0           |         1|
+|5     |DeterminantMicroBlaze_xbar_0                   |         1|
+|6     |DeterminantMicroBlaze_DeterminantTopModule_0_0 |         1|
+|7     |DeterminantMicroBlaze_axi_gpio_0_0             |         1|
+|8     |DeterminantMicroBlaze_axi_gpio_1_0             |         1|
+|9     |DeterminantMicroBlaze_axi_gpio_10_0            |         1|
+|10    |DeterminantMicroBlaze_axi_gpio_11_0            |         1|
+|11    |DeterminantMicroBlaze_axi_gpio_12_0            |         1|
+|12    |DeterminantMicroBlaze_axi_gpio_13_0            |         1|
+|13    |DeterminantMicroBlaze_axi_gpio_14_0            |         1|
+|14    |DeterminantMicroBlaze_axi_gpio_15_0            |         1|
+|15    |DeterminantMicroBlaze_axi_gpio_16_0            |         1|
+|16    |DeterminantMicroBlaze_axi_gpio_17_0            |         1|
+|17    |DeterminantMicroBlaze_axi_gpio_18_0            |         1|
+|18    |DeterminantMicroBlaze_axi_gpio_19_0            |         1|
+|19    |DeterminantMicroBlaze_axi_gpio_2_0             |         1|
+|20    |DeterminantMicroBlaze_axi_gpio_20_0            |         1|
+|21    |DeterminantMicroBlaze_axi_gpio_21_0            |         1|
+|22    |DeterminantMicroBlaze_axi_gpio_22_0            |         1|
+|23    |DeterminantMicroBlaze_axi_gpio_23_0            |         1|
+|24    |DeterminantMicroBlaze_axi_gpio_24_0            |         1|
+|25    |DeterminantMicroBlaze_axi_gpio_25_0            |         1|
+|26    |DeterminantMicroBlaze_axi_gpio_26_0            |         1|
+|27    |DeterminantMicroBlaze_axi_gpio_27_0            |         1|
+|28    |DeterminantMicroBlaze_axi_gpio_28_1            |         1|
+|29    |DeterminantMicroBlaze_axi_gpio_29_0            |         1|
+|30    |DeterminantMicroBlaze_axi_gpio_3_0             |         1|
+|31    |DeterminantMicroBlaze_axi_gpio_4_0             |         1|
+|32    |DeterminantMicroBlaze_axi_gpio_5_0             |         1|
+|33    |DeterminantMicroBlaze_axi_gpio_6_0             |         1|
+|34    |DeterminantMicroBlaze_axi_gpio_7_0             |         1|
+|35    |DeterminantMicroBlaze_axi_gpio_8_0             |         1|
+|36    |DeterminantMicroBlaze_axi_gpio_9_0             |         1|
+|37    |DeterminantMicroBlaze_axi_timer_0_0            |         1|
+|38    |DeterminantMicroBlaze_axi_uartlite_0_0         |         1|
+|39    |DeterminantMicroBlaze_clk_wiz_0_0              |         1|
+|40    |DeterminantMicroBlaze_mdm_1_0                  |         1|
+|41    |DeterminantMicroBlaze_microblaze_0_0           |         1|
+|42    |DeterminantMicroBlaze_rst_clk_wiz_0_100M_0     |         1|
+|43    |DeterminantMicroBlaze_util_vector_logic_0_0    |         1|
+|44    |DeterminantMicroBlaze_dlmb_bram_if_cntlr_0     |         1|
+|45    |DeterminantMicroBlaze_dlmb_v10_0               |         1|
+|46    |DeterminantMicroBlaze_ilmb_bram_if_cntlr_0     |         1|
+|47    |DeterminantMicroBlaze_ilmb_v10_0               |         1|
+|48    |DeterminantMicroBlaze_lmb_bram_0               |         1|
++------+-----------------------------------------------+----------+
+
+Report Cell Usage: 
++------+-----------------------------------------------+------+
+|      |Cell                                           |Count |
++------+-----------------------------------------------+------+
+|1     |DeterminantMicroBlaze_DeterminantTopModule_0_0 |     1|
+|2     |DeterminantMicroBlaze_axi_gpio_0_0             |     1|
+|3     |DeterminantMicroBlaze_axi_gpio_10_0            |     1|
+|4     |DeterminantMicroBlaze_axi_gpio_11_0            |     1|
+|5     |DeterminantMicroBlaze_axi_gpio_12_0            |     1|
+|6     |DeterminantMicroBlaze_axi_gpio_13_0            |     1|
+|7     |DeterminantMicroBlaze_axi_gpio_14_0            |     1|
+|8     |DeterminantMicroBlaze_axi_gpio_15_0            |     1|
+|9     |DeterminantMicroBlaze_axi_gpio_16_0            |     1|
+|10    |DeterminantMicroBlaze_axi_gpio_17_0            |     1|
+|11    |DeterminantMicroBlaze_axi_gpio_18_0            |     1|
+|12    |DeterminantMicroBlaze_axi_gpio_19_0            |     1|
+|13    |DeterminantMicroBlaze_axi_gpio_1_0             |     1|
+|14    |DeterminantMicroBlaze_axi_gpio_20_0            |     1|
+|15    |DeterminantMicroBlaze_axi_gpio_21_0            |     1|
+|16    |DeterminantMicroBlaze_axi_gpio_22_0            |     1|
+|17    |DeterminantMicroBlaze_axi_gpio_23_0            |     1|
+|18    |DeterminantMicroBlaze_axi_gpio_24_0            |     1|
+|19    |DeterminantMicroBlaze_axi_gpio_25_0            |     1|
+|20    |DeterminantMicroBlaze_axi_gpio_26_0            |     1|
+|21    |DeterminantMicroBlaze_axi_gpio_27_0            |     1|
+|22    |DeterminantMicroBlaze_axi_gpio_28_1            |     1|
+|23    |DeterminantMicroBlaze_axi_gpio_29_0            |     1|
+|24    |DeterminantMicroBlaze_axi_gpio_2_0             |     1|
+|25    |DeterminantMicroBlaze_axi_gpio_3_0             |     1|
+|26    |DeterminantMicroBlaze_axi_gpio_4_0             |     1|
+|27    |DeterminantMicroBlaze_axi_gpio_5_0             |     1|
+|28    |DeterminantMicroBlaze_axi_gpio_6_0             |     1|
+|29    |DeterminantMicroBlaze_axi_gpio_7_0             |     1|
+|30    |DeterminantMicroBlaze_axi_gpio_8_0             |     1|
+|31    |DeterminantMicroBlaze_axi_gpio_9_0             |     1|
+|32    |DeterminantMicroBlaze_axi_timer_0_0            |     1|
+|33    |DeterminantMicroBlaze_axi_uartlite_0_0         |     1|
+|34    |DeterminantMicroBlaze_clk_wiz_0_0              |     1|
+|35    |DeterminantMicroBlaze_dlmb_bram_if_cntlr_0     |     1|
+|36    |DeterminantMicroBlaze_dlmb_v10_0               |     1|
+|37    |DeterminantMicroBlaze_ilmb_bram_if_cntlr_0     |     1|
+|38    |DeterminantMicroBlaze_ilmb_v10_0               |     1|
+|39    |DeterminantMicroBlaze_lmb_bram_0               |     1|
+|40    |DeterminantMicroBlaze_mdm_1_0                  |     1|
+|41    |DeterminantMicroBlaze_microblaze_0_0           |     1|
+|42    |DeterminantMicroBlaze_rst_clk_wiz_0_100M_0     |     1|
+|43    |DeterminantMicroBlaze_tier2_xbar_0_0           |     1|
+|44    |DeterminantMicroBlaze_tier2_xbar_1_0           |     1|
+|45    |DeterminantMicroBlaze_tier2_xbar_2_0           |     1|
+|46    |DeterminantMicroBlaze_tier2_xbar_3_0           |     1|
+|47    |DeterminantMicroBlaze_util_vector_logic_0_0    |     1|
+|48    |DeterminantMicroBlaze_xbar_0                   |     1|
+|49    |IBUF                                           |     5|
+|50    |OBUF                                           |    17|
++------+-----------------------------------------------+------+
+
+Report Instance Areas: 
++------+------------------------------+------------------------------------------------+------+
+|      |Instance                      |Module                                          |Cells |
++------+------------------------------+------------------------------------------------+------+
+|1     |top                           |                                                |  7263|
+|2     |  DeterminantMicroBlaze_i     |DeterminantMicroBlaze                           |  7241|
+|3     |    microblaze_0_axi_periph   |DeterminantMicroBlaze_microblaze_0_axi_periph_0 |  4201|
+|4     |    microblaze_0_local_memory |microblaze_0_local_memory_imp_5CYS9E            |   496|
++------+------------------------------+------------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1118.020 ; gain = 398.098
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 66 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 1118.020 ; gain = 255.070
+Synthesis Optimization Complete : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 1118.020 ; gain = 398.098
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1118.020 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+198 Infos, 112 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1118.020 ; gain = 668.961
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1118.020 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/OAkun/Desktop/CECS460Micro/ALUMicroBlazeTimer/DetMicroBlazeLec.runs/synth_1/DeterminantMicroBlaze_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file DeterminantMicroBlaze_wrapper_utilization_synth.rpt -pb DeterminantMicroBlaze_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu May 13 11:41:17 2021...

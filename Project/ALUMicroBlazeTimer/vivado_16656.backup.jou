@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon May 10 18:54:35 2021
+# Process ID: 16656
+# Current directory: C:/Users/OAkun/Desktop/CECS460Micro/DetMicroBlazeLecTimerVideo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4540 C:\Users\OAkun\Desktop\CECS460Micro\DetMicroBlazeLecTimerVideo\DetMicroBlazeLec.xpr
+# Log file: C:/Users/OAkun/Desktop/CECS460Micro/DetMicroBlazeLecTimerVideo/vivado.log
+# Journal file: C:/Users/OAkun/Desktop/CECS460Micro/DetMicroBlazeLecTimerVideo\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/OAkun/Desktop/CECS460Micro/DetMicroBlazeLecTimerVideo/DetMicroBlazeLec.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/OAkun/Desktop/CECS460Micro/DetMicroBlazeLecTimerVideo/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/DeterminantMicroBlaze.bd}
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:axi_timer:2.0 axi_timer_0
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config { Clk_master {/clk_wiz_0/clk_out1 (100 MHz)} Clk_slave {Auto} Clk_xbar {/clk_wiz_0/clk_out1 (100 MHz)} Master {/microblaze_0 (Periph)} Slave {/axi_timer_0/S_AXI} intc_ip {/microblaze_0_axi_periph} master_apm {0}}  [get_bd_intf_pins axi_timer_0/S_AXI]
+regenerate_bd_layout
+save_bd_design
+validate_bd_design
+save_bd_design
+make_wrapper -files [get_files C:/Users/OAkun/Desktop/CECS460Micro/DetMicroBlazeLecTimerVideo/DetMicroBlazeLec.srcs/sources_1/bd/DeterminantMicroBlaze/DeterminantMicroBlaze.bd] -top
+reset_run synth_1
+reset_run DeterminantMicroBlaze_xbar_0_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+file copy -force C:/Users/OAkun/Desktop/CECS460Micro/DetMicroBlazeLecTimerVideo/DetMicroBlazeLec.runs/impl_1/DeterminantMicroBlaze_wrapper.sysdef C:/Users/OAkun/Desktop/CECS460Micro/DetMicroBlazeLecTimerVideo/DeterminantMicroBlaze_wrapper.hdf
+
+launch_sdk -workspace C:/Users/OAkun/Desktop/CECS460Micro/DetMicroBlazeLecTimerVideo -hwspec C:/Users/OAkun/Desktop/CECS460Micro/DetMicroBlazeLecTimerVideo/DeterminantMicroBlaze_wrapper.hdf

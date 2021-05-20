@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# 
+# Start of session at: Mon May 10 19:53:03 2021
+# Process ID: 21256
+# Current directory: C:/Users/OAkun/Desktop/CECS460Micro/DetMicroBlazeLecTimerVideo/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/OAkun/Desktop/CECS460Micro/DetMicroBlazeLecTimerVideo/webtalk/webtalk.log
+# Journal file: C:/Users/OAkun/Desktop/CECS460Micro/DetMicroBlazeLecTimerVideo/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl
